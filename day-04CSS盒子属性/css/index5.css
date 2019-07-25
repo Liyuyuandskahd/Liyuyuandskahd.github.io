@@ -1,0 +1,93 @@
+*{
+    margin: 0;padding: 0; 
+}
+#lianxi5{
+    width: 1350px;
+    height: 405px;
+    background: #181617;
+    margin: auto;
+    overflow: hidden;
+}
+.h1{
+    font-size: 34px;
+    line-height: 34px;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 45px 0 42px;
+}
+.h2{
+    font-size: 24px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+}
+.box,.footer{
+    width: 1156px;
+    height: 148px;
+    margin: auto;
+}
+.box1{
+    background-image: url(../练习/练习1图片/foot_tel.png);
+}
+.box2{
+    background-image: url(../练习/练习1图片/foot_wx.png);
+}
+.box3{
+    background-image: url(../练习/练习1图片/foot_qq.png);
+}
+.box4{
+    background-image: url(../练习/练习1图片/foot_sq.png);
+}
+.box1,.box2,.box3,.box4{
+    width: 268px;
+    height: 148px;
+    margin-right: 28px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: flex;
+    align-items: center;
+    /* 让列表垂直居中 */
+}
+.box1 ul,.box2 ul,.box3 ul,.box4 ul{
+    float: right;
+    list-style: none;
+    margin-left: 70px;
+}
+.li1{
+    color:#cbcbcb; 
+    font-size: 16px;
+}
+.li2{
+    color:#ffffff; 
+    font-size: 18px;
+}
+.f1{
+    background-image: url(../练习/练习1图片/foot_c1.png);
+}
+.f2{
+    background-image: url(../练习/练习1图片/foot_c2.png);
+}
+.f3{
+    background-image: url(../练习/练习1图片/foot_c3.png);
+}
+.f4{
+    background-image: url(../练习/练习1图片/foot_c4.png);
+}
+.f1,.f2,.f3,.f4{
+    width: 266px;
+    height: 80px;
+    border: #cbcbcb solid 1px;
+    margin-right: 28px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: flex;
+    align-items: center;
+}
+.f1 ul,.f2 ul,.f3 ul,.f4 ul{
+    float: right;
+    list-style: none;
+    margin-left: 70px;
+}
