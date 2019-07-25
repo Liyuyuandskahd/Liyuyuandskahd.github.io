@@ -1,0 +1,48 @@
+* {
+    margin: 0; padding: 0;
+}
+
+#wdzg {
+    width: 100%;
+    height: 3437px;
+}
+
+#wdzg .content {
+
+}
+
+#wdzg .header {
+    width: 100%;
+    height: 70px;
+}
+
+#wdzg .min1{
+    width: 100%;
+    height: 420px;
+    background: url(../images/list_10.gif) no-repeat center center;
+}
+
+#wdzg .min2{
+    width: 100%;
+    height: 152px;
+    background: #003e71;
+}
+
+#wdzg .min3{
+    width: 100%;
+    height: 595px;
+}
+
+#wdzg .min4{
+    width: 100%;
+    height: 1425px;
+    background: #fafafa;
+}
+
+#wdzg .min5{
+    
+}
+
+#wdzg .footer{
+    
+}
