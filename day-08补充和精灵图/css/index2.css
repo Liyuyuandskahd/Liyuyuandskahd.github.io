@@ -1,0 +1,28 @@
+* {
+    margin: 0; padding: 0;
+}
+
+#box {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+
+.left {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background: palegoldenrod;
+}
+
+.right {
+    width: 80%;
+    height: 100%;
+    float: right;
+    background: darkorange;
+    overflow: scroll;
+}
+
+p {
+    line-height: 600px;
+}
