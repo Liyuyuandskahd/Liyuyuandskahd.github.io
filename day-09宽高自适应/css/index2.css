@@ -1,0 +1,1016 @@
+* {
+    margin: 0; padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.content {
+    width: 1200px;
+    margin: auto;
+}
+
+/* -----nav区域开始----- */
+.nav {
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background: #ffffff;
+    z-index: 5;
+} 
+
+.nav .logo {
+    display: inline;
+    line-height: 70px;
+} 
+
+.nav .logo img {
+    vertical-align: middle;
+} 
+
+.nav .logo span {
+    display: inline;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #ffa000;
+} 
+
+.nav ul {
+    float: right;
+    margin-right: 161px;
+}
+
+.nav li {
+    float: left;
+    list-style: none;
+    line-height: 70px;
+    padding: 0 30px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #303030;
+    font-size: 16px;
+    display: block;
+}
+
+.nav li a:hover {
+    color: #ffa000;
+}
+/* -----nav区域结束----- */
+
+/* -----baner区域开始----- */
+.banar {
+    margin-top: 70px;
+    height: 350px;
+    background: url(../作业/小鹿/images/banner.png) no-repeat center center;
+}
+
+.sidebar {
+    width: 240px;
+    height: 350px;
+    background: rgba(0,0,0,0.3);
+    display: inline-block;
+}
+
+
+.sidebar ul {
+    list-style: none;
+    margin-top: 13px;
+    position: relative;
+}
+
+.sidebar ul li {
+    height: 65px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.sidebar li span {
+    width: 160px;
+    height: 26px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+
+.sidebar a {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar-1 span {
+    background: url(../作业/小鹿/images/CSS\ Satyr1.png) no-repeat;
+}
+
+.sidebar-2 span {
+    background: url(../作业/小鹿/images/CSS\ Satyr1.png) no-repeat -0px -25px;
+}
+
+.sidebar-3 span {
+    background: url(../作业/小鹿/images/CSS\ Satyr1.png) no-repeat -0px -50px;
+}
+
+.sidebar-4 span {
+    background: url(../作业/小鹿/images/CSS\ Satyr1.png) no-repeat -0px -75px;
+}
+
+.sidebar-5 span {
+    background: url(../作业/小鹿/images/CSS\ Satyr1.png) no-repeat -0px -100px;
+}
+
+
+
+.insidebar-1 {
+    width: 480px;
+    height: 350px;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top: -13px;
+    left: 240px;
+    display: none;
+}
+
+.sidebar .insidebar-1 ul {
+    list-style: none;
+}
+
+.sidebar .insidebar-1 li {
+    float: left;
+    padding: 0 30px;
+    text-align: center;
+    border-right: 1px solid #e8e8e8;
+    height: 16px;
+    line-height: 14px;
+    margin-top: 12px;
+    margin-bottom: 25.5px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.sidebar-1:hover {
+    background: rgba(0,0,0,0.15);
+}
+
+.sidebar-1:hover .insidebar-1 {
+    display: block;
+    background: rgba(0,0,0,0.4);
+}
+
+.sidebar-2:hover {
+    background: rgba(0,0,0,0.15);
+}
+
+.sidebar-2:hover .insidebar-1 {
+    display: block;
+    background: rgba(0,0,0,0.4);
+}
+
+.sidebar-3:hover {
+    background: rgba(0,0,0,0.15);
+}
+
+.sidebar-3:hover .insidebar-1 {
+    display: block;
+    background: rgba(0,0,0,0.4);
+}
+
+.sidebar-4:hover {
+    background: rgba(0,0,0,0.15);
+}
+
+.sidebar-4:hover .insidebar-1 {
+    display: block;
+    background: rgba(0,0,0,0.4);
+}
+
+.sidebar-5:hover {
+    background: rgba(0,0,0,0.15);
+}
+
+.sidebar-5:hover .insidebar-1 {
+    display: block;
+    background: rgba(0,0,0,0.4);
+}
+/* -----baner区域结束----- */
+
+/* -----promise区域开始----- */
+.promise .content {
+    height: 106px;
+}
+
+.promise .content li {
+    list-style: none;
+    text-align: center;
+    float: left;
+    width: 200px;
+    height: 106px;
+    margin-top: 40px;
+}
+
+.promise .content li span {
+    font-size: 16px;
+    line-height: 16px;
+    color: #333333;
+    margin-top: 90px;
+    display: block;
+}
+
+.promise .content .p-icon-1 {
+    background: url(../作业/小鹿/images/icon-proimse-1.png) no-repeat center top;
+}
+
+.promise .content .p-icon-2 {
+    background: url(../作业/小鹿/images/icon-proimse-2.png) no-repeat center top;
+}
+
+.promise .content .p-icon-3 {
+    background: url(../作业/小鹿/images/icon-proimse-3.png) no-repeat center top;
+}
+
+.promise .content .p-icon-4 {
+    background: url(../作业/小鹿/images/icon-proimse-4.png) no-repeat center top;
+}
+
+.promise .content .p-icon-5 {
+    background: url(../作业/小鹿/images/icon-proimse-5.png) no-repeat center top;
+}
+
+.promise .content .p-icon-6 {
+    background: url(../作业/小鹿/images/icon-proimse-6.png) no-repeat center top;
+}
+/* -----promise区域结束----- */
+
+/* -----min1区域开始----- */
+.main1 .content {
+    height: 408px;
+    margin-top: 20px;
+}
+
+.h2-text {
+    font-size: 28px;
+    color: #333333;
+    margin-top: 40px;
+    font-size: 28px;
+}
+
+.l-text{
+    font-size: 14px;
+    color: #333333;
+    font-size: 14px;
+}
+
+.r-text{
+    font-size: 12px;
+    color: #9b9b9b;
+    float: right;
+    font-size: 12px;
+}
+
+.m1-box {
+    width: 1200px;
+    height: 360px;
+    margin-top: 20px;
+}
+
+.m1-box1 {
+    width: 540px;
+    height: 360px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.ftext {
+    width: 100%;
+    height: 80px;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0)));
+    position: absolute;
+    bottom: 0;
+}
+
+.m1-box2-1 .ftext {
+    height: 60px;
+}
+
+.ftext p {
+    color: #ffffff;
+    line-height: 80px;
+    margin-left: 30px;
+}
+
+.m1-box2 {
+    width: 262px;
+    height: 360px;
+    float: left;
+    margin: 0 10px;
+}
+
+.m1-box2-1 {
+    width: 262px;
+    height: 175px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.m1-box2-1 img {
+    width: 262px;
+    height: 175px;
+}
+
+.m1-box3 {
+    width: 378px;
+    height: 360px;
+    float: left;
+}
+
+.main1 .m1-box1:hover img {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.m1-box .m1-box2-1:hover img {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+/* -----main1区域结束----- */
+
+/* -----main2区域开始----- */
+.m2-nav {
+    height: 84px;
+}
+.m2-nav li {
+    text-align: center;
+    float: left;
+    list-style: none;
+    font-size: 14px;
+    color: #333333;
+    margin-right: 25px;
+    margin-top: 40px;
+}
+
+.m2-nav li span {
+    margin-right: 25px;
+}
+
+.m2-nav .more {
+    font-size: 12px;
+    color: #9b9b9b;
+    float: right;
+    margin-left: 312px;
+    margin-right:0;
+}
+
+.box1 {
+    width: 1200px;
+}
+
+.box1 li {
+    list-style: none;
+    width: 570px;
+    height: 160px;
+    float: left;
+    margin-bottom: 30px;
+
+}
+
+.box1 li:nth-child(2n+1) {
+    margin-right: 60px;
+}
+
+.box1 li h3 {
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.box1 li p {
+    font-size: 12px;
+    color: #333333;
+    line-height: 20px;
+}
+
+.box1 li p span {
+    display: inline-block;
+    margin: 15px 40px 25px 0px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #c8c8c8;
+}
+
+.m2-img {
+    width: 240px;
+    height: 160px;
+    float: left;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+.main2 .box1 img:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+/* -----main2区域结束----- */
+
+/* -----main3区域开始----- */
+.main3 {
+    background: #f8f8f8;
+}
+
+.main3 .content {
+    overflow: hidden;
+}
+
+.m3-box1 {
+    height: 267px;
+}
+
+.m3b-title {
+    height: 180px;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    background: url(../作业/小鹿/images/bg-help.png) no-repeat center center;
+}
+
+.m3b-title p {
+    font-size: 30px;
+    margin-left: 250px;
+    margin-top: 52px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.m3b-title p span {
+    font-size: 15px;
+    margin-top: 32px;
+}
+
+.m3b-title .btn {
+    font-size: 18px;
+    color: #ffffff;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 60px;
+    background: #ffa000;
+    position: absolute;
+    top: 50px;
+    right: 158px;
+}
+
+.f-box {
+    width: 270px;
+    height: 335px;
+    margin-right: 40px;
+    float: left;
+    background: #ffffff;
+    margin-bottom: 40px;
+}
+
+.f-box span {
+    font-size: 12px;
+    color: #333333;
+    width: 66px;
+    height: 25px;
+    display: block;
+    background: #fdf2e9;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 25px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 14px;
+}
+
+.f-box ul {
+    border-top: dashed 1px #e8e8e8;
+    margin-top: 54px;
+    width: 230px;
+    margin-left: 20px;
+}
+
+.f-box li {
+    list-style: none;
+    font-size: 13px;
+    color: #666666;
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.f-box li img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+/* -----main3区域结束----- */
+
+/* -----main4区域开始----- */
+.main4 .content {
+    height: 450px;
+    overflow: hidden;
+}
+
+.m4-box {
+    height: 350px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.m4-fbox {
+    width: 365px;
+    height: 290px;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 30px;
+    text-align: center;
+}
+
+.m4-box h3 {
+    color: #ffffff;
+    padding: 30px 0 25px;
+}
+
+.m4-box h3::after {
+    content: "-----------"
+}
+
+.m4-box h3::before {
+    content: "-----------"
+}
+
+.m4-box ul {
+    padding:  0 30px;
+}
+
+.m4-box li {
+
+    color: #333333;
+    width: 90px;
+    height: 36px;
+    float: left;
+    list-style: none;
+    margin: 5px;
+    background: #ffffff;
+    line-height: 36px;
+    border-radius: 5px;
+}
+
+.m4-box li:hover {
+    background: #ffa000;
+    color: #ffffff;
+}
+/* -----main4区域结束----- */
+
+/* -----main5区域开始----- */
+.main5 {
+}
+
+.main5 .content {
+    overflow: hidden;
+}
+
+.main5 .content .more {
+    float: right;
+    margin-top: 40px;
+}
+
+.m5-box {
+    width: 1200px;
+    height: 274px;
+}
+
+.m5-img1,.m5-img2,.m5-img3,.m5-img4,.m5-img5 {
+    width: 224px;
+    height: 275px;
+    float: left;
+    margin-right: 20px; 
+    position: relative;
+    overflow: hidden;
+}
+
+.m5-name {
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 60px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+}
+
+.m5-img1::after,.m5-img2::after,.m5-img3::after,.m5-img4::after,.m5-img5::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.1);
+    z-index: 2;
+}
+
+.m5-title {
+    position: absolute;
+    color: #ffffff;
+    width: 168px;
+    height: 275px;
+    bottom: -275px;
+    padding: 0 28px;
+    background: rgba(245, 201, 6, 0.9);
+    transition: bottom 0.3s;
+    z-index: 4;
+}
+
+.m5-title h4 {
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 30px; 
+}
+
+.m5-title p {
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 15px; 
+}
+
+.m5-img1:hover .m5-title {
+    bottom: 0;
+}
+
+.m5-img2:hover .m5-title {
+    bottom: 0;
+}
+
+.m5-img3:hover .m5-title {
+    bottom: 0;
+}
+
+.m5-img4:hover .m5-title {
+    bottom: 0;
+}
+
+.m5-img5:hover .m5-title {
+    bottom: 0;
+}
+
+.m2-nav li:hover {
+    color: #ffa000;
+}
+/* -----main5区域结束----- */
+
+/* -----bagd区域开始----- */
+
+.bagd .content {
+    margin-top: 30px;
+    width: 1200px;
+    height: 180px;
+    position: relative;
+    z-index: 1;
+}
+
+.bagd h3 {
+    font-size: 30px;
+    color: #333333;
+    position: absolute;
+    left: 250px;
+    top: 48px;
+}
+
+.bg-title1 {
+    font-size: 26px;
+    color: #333333;
+    position: absolute;
+    left: 250px;
+    bottom: 52px;
+}
+
+.bg-title2 {
+    font-size: 14px;
+    color: #333333;
+    position: absolute;
+    right: 152px;
+    bottom: 42px;
+}
+
+.bagd span {
+    font-size: 18px;
+    color: #ffffff;
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: none;
+    border-radius: 60px;
+    background: #ffa000;
+    position: absolute;
+    top: 50px;
+    right: 158px;
+}
+/* -----bagd区域结束----- */
+
+/* -----main6区域开始----- */
+.main6 {
+    height: 430px;
+    background: #f8f8f8;
+    overflow: hidden;
+}
+
+.m6-box1 {
+    width: 1200px;
+    height: 160px;
+}
+
+.m6-head {
+    font-size: 20px;
+    color:#333333; 
+    margin-top: 50px;
+}
+
+.m6-head span {
+    float: right;
+    font-size: 14px;
+    color:#9b9b9b;
+}
+
+.m6-box1 ul {
+    color: #ffa000;
+}
+
+.m6-box1 li {
+    list-style: none;
+    width: 225px;
+    height: 105px;
+    color: #333333;
+    font-size: 18px;
+    line-height: 30px;
+    background: url(../作业/小鹿/images/list-style1.png) no-repeat 20px 20px,url(../作业/小鹿/images/bg-report-1.png);
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 15px 115px 0 40px;
+}
+
+.m6-box2 li {
+    list-style: none;
+    width: 150px;
+    height: 70px;
+    float: left;
+    margin: 20px 25px 73px 0px;
+}
+/* -----main6区域结束----- */
+
+/* -----footer区域开始----- */
+.footer {
+    height: 625px;
+    background: #1b1b1b;
+}
+
+.f-box1 {
+    height: 192px;
+    border-bottom: solid 1px #333333;
+    position: relative;
+}
+
+.fbox-text1,.fbox-text2 {
+    width: 100px;
+    height: 38px;
+    background: #494949;
+    line-height: 38px;
+    text-align: center;
+    font-size: 16px;
+    color: #a4a4a4;
+    display: block;
+    float: left;
+    margin-top: 60px;
+}
+
+.fbox-text2 {
+    background: #323232;
+}
+
+.f-box1 li {
+    list-style: none;
+    float: left;
+    color: #5b5b5b;
+    font-size: 14px;
+    margin-right: 35px;
+}
+
+.f-box1 ul {
+    position: absolute;
+    top: 118px;
+    left: 0;
+}
+
+.f-box2 {
+    height: 270px;
+    border-bottom: solid 1px #333333;
+    position: relative;
+}
+
+.f-box2 ul {
+    float: left;
+    list-style: none;
+    font-size: 14px;
+    line-height: 15px;
+    color: #c8c8c8;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+
+.f-box2 li {
+    margin-bottom: 15px;
+}
+
+.f-box2 .li-head {
+    font-size: 16px;
+    color: #e8e8e8;
+    margin-bottom: 22px;
+}
+
+.fbox-right {
+    width: 300px;
+    height: 125px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.fr-text1 {
+    font-size: 18px;
+    color: #e8e8e8;
+    margin-top: 55px;
+}
+
+.fr-text2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.blck1,.blck2 {
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    border: solid 1px #666666;
+    margin-right: 14px;
+    background: #444444;
+    display: block;
+}
+.blck1 {
+    position: absolute;
+    right:155px ;
+    bottom: 60px;
+}
+
+.blck2 {
+    position: absolute;
+    right: 0px ;
+    bottom: 60px;
+}
+
+.label {
+    width: 625px;
+    height: 47px;
+    margin: auto;
+    margin-top: 58px;
+    background: url(../作业/小鹿/images/label_sm_90040.png) no-repeat left center;
+}
+
+.label p {
+    color: #282830;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 160px;
+}
+/* -----footer区域结束----- */
+
+/* -----fix区域开始----- */
+.fix {
+    width: 80px;
+    height: 320px;
+    position: fixed;
+    right: 2%;
+    bottom: 18%;
+    background: #ffffff;
+    z-index: 10;
+}
+
+.fix-1,.fix-2,.fix-3,.fix-4 {
+    width: 55px;
+    height: 59px;
+    padding-top: 15px;
+    text-align: center;
+    border-bottom: solid 1px #9b9b9b; 
+    margin: auto;
+}
+
+.fix-4 {
+    border: none;
+}
+
+.fix-3 {
+    position: relative;
+}
+
+.f-wx img{
+    width: 120px;
+    height: 120px;
+}
+
+.f-wx {
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+    background: #ffffff;
+    position: absolute;
+    left: -180px;
+    top: 10px;
+    display: none;
+}
+
+.fix p {
+    font-size: 13px;
+    line-height: 25px;
+    color: #9b9b9b;
+}
+
+.fix span {
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+}
+
+.fix-1 span {
+    background: url(../作业/小鹿/images/CSS\ Satyr3.png) no-repeat -0px -0px;
+}
+
+.fix-2 span {
+    background: url(../作业/小鹿/images/CSS\ Satyr3.png) no-repeat -0px -30px;
+}
+
+.fix-3 span {
+    background: url(../作业/小鹿/images/CSS\ Satyr3.png) no-repeat -0px -60px;
+}
+
+.fix-4 span {
+    background: url(../作业/小鹿/images/CSS\ Satyr3.png) no-repeat -0px -90px;
+}
+
+.fix-1:hover p{
+    color: #ffa000;
+}
+
+.fix-1:hover span {
+    background: url(../作业/小鹿/images/CSS\ Satyr3.png) no-repeat -30px -0px;
+}
+
+.fix-2:hover p{
+    color: #ffa000;
+}
+
+.fix-2:hover span {
+    background: url(../作业/小鹿/images/CSS\ Satyr3.png) no-repeat -30px -30px;
+}
+
+.fix-3:hover p{
+    color: #ffa000;
+}
+
+.fix-3:hover span {
+    background: url(../作业/小鹿/images/CSS\ Satyr3.png) no-repeat -30px -60px;
+}
+
+.fix-3:hover .f-wx {
+    display: block;
+}
+
+.fix-4:hover p{
+    color: #ffa000;
+}
+
+.fix-4:hover span {
+    background: url(../作业/小鹿/images/CSS\ Satyr3.png) no-repeat -30px -90px;
+}
+/* -----fix区域结束----- */
