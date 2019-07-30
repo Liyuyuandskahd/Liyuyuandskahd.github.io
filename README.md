@@ -4,4 +4,4 @@
 <br>
 <a href="https://liyuyuandskahd.github.io/day-09%E5%AE%BD%E9%AB%98%E8%87%AA%E9%80%82%E5%BA%94/html/lianxi2-%E5%B0%8F%E9%B9%BF.html">day09-小鹿</a>
 <br>
-<a href="https://liyuyuandskahd.github.io/day-10%E7%99%BB%E5%BD%95%E8%A1%A8%E5%8D%95/html/seatword1.html">管理系统</a>
+<a href="https://liyuyuandskahd.github.io/day-10%E7%99%BB%E5%BD%95%E8%A1%A8%E5%8D%95/html/seatword1.html">day10-管理系统</a>
