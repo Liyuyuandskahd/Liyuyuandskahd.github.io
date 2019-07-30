@@ -1,0 +1,68 @@
+*{
+    margin: 0;padding: 0;
+}
+#lianxi2{
+    width: 1350px;
+    height: 800px;
+    background: #107f9d;
+    margin: auto;
+    overflow: hidden;
+}
+.h1{
+    font-size: 36px;
+    text-transform: capitalize;
+    line-height: 36px;
+    margin: 12px 0 26px;
+}
+.h2{
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 56px;
+}
+.h1,.h2{
+    color: #ffffff;
+    text-align: center;
+}
+.box{
+    width: 1180px;
+    height: 543px;
+    margin: auto;
+}
+.box1,.box2,.box3,.box4,.box5,.box6{
+    width: 550px;
+    height: 166px;
+    background: white;
+    float: left;
+    margin: 7.5px 20px;
+}
+.b-left{
+    width: 170px;
+    height: 166px;
+    background-image: url(../image/练习2图片/box1.png);
+    float: left;
+}
+.b-right{
+    width: 380px;
+    height: 166px;
+    float: right;
+}
+.h5{
+    font-size: 14px;
+    line-height: 14px;
+    margin: 28px 0 18px 20px;
+}
+.title{
+    font-size: 12px;
+    line-height: 22px;
+    color: #777777;
+    margin: 0 36px 0 20px;
+}
+.footer{
+    font-size: 10px;
+    line-height: 10px;
+    color: #777777;
+    margin: 18px 36px 0 20px;
+}
+.footer span{
+    float: right;
+}

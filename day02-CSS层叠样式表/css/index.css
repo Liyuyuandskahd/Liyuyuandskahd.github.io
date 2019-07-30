@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#wolong{
+    width: 999px;
+    height: 1499px; 
+    margin: auto;
+}
+#wolong .header{
+    width: 999px;
+    height: 100px; 
+    background-color:salmon;
+}
+#wolong .nav{
+    width: 999px;
+    height: 60px;
+    background:goldenrod;
+}
+#wolong .main1{
+    width: 999px;
+    height: 464px;
+}
+#wolong .main2{
+    width: 999px;
+    height: 240px;
+    background: saddlebrown; 
+}
+#wolong .main3{
+    width: 999px;
+    height: 305px;
+    background: seagreen;
+}
+#wolong .main4{
+    width: 999px;
+    height: 250px;
+    background: fuchsia; 
+}
+#wolong .footer{
+    width: 999px;
+    height: 80px;
+    background: slategray;
+}

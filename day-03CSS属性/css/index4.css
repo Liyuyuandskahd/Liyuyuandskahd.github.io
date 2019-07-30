@@ -1,0 +1,81 @@
+*{
+    margin: 0;padding: 0;   
+}
+#header{
+    width: 1335px;
+    height:663px;
+    margin: auto;
+}
+h2{
+    color: #444243;
+    line-height: 72px;
+    text-align: center;
+}
+.h2{
+    font-family: "仿宋";
+    color: #a29a98;
+    margin-top: 18px;
+    margin-bottom: 36px;
+    text-align: center;
+    
+}
+.body{
+    width: 1180px;
+    height: 235px;
+    margin: auto;
+}
+.box1{
+    width: 380px;
+    height: 235px;
+}
+.box2{
+    width: 380px;
+    height: 235px;
+    margin: 0 20px;
+}
+.box3{
+    width: 380px;
+    height: 235px;
+}
+.box1,.box2,.box3,.box4,.box5,.box6{
+    float: left;
+}
+.footer{
+    width: 1180px;
+    height: 190px;
+    margin: auto;
+    margin-top: 77px;
+}
+.box4{
+    width: 380px;
+    height: 190px;
+}
+.box5{
+    width: 380px;
+    height: 190px;
+    margin: 0 20px;
+}
+.box6{
+    width: 380px;
+    height: 190px;
+}
+.box1 p,.box2 p,.box3 p{
+    font-size: 12px;
+    color: #9a9899;
+    line-height: 22px;
+}
+h5{
+    color: #444446;
+    margin: 12px 0;
+}
+.box4 li,.box5 li,.box6 li{
+    color: #444446;
+    list-style-position: inside;
+    font-size: 14px;
+    line-height: 36px;
+}
+.box4 span,.box5 span,.box6 span{
+    float: right;
+    color: #9a9899;
+    font-size: 12px;
+}

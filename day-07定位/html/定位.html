@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 352px;
+            height: 218px;
+            position: relative;
+        }
+
+        .box1 {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        span {
+            width: 228px;
+            height: 71px;
+            background: #0093dd;
+            display: block;
+            text-align: center;
+            font-size: 22px;
+            line-height: 71px;
+            font-family: "微软雅黑";
+            color: #ffffff;
+            opacity: 0.9;
+        }
+
+        .box2 {
+            font-size: 15px;
+            color: #ffffff;
+            width: 352px;
+            height: 0px;
+            background: #0093dd;
+            text-align: center;
+            line-height: 26px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            overflow: hidden;
+        }
+
+        .title1{
+            margin-top: 60px;
+        }
+
+        .title2 {
+            font-size: 13px;
+            line-height: 13px;
+            margin-top: 27px;
+            color: #ffffff;
+        }
+
+        .box:hover .box2 {
+            height: 100%;
+            transition: all 0.3s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img src="../作业/超凡科技/images/bus_tu4.jpg" alt="">
+        <div class="box1"><span>营销网站建设</span></div>
+        <div class="box2">
+            <p class="title1">
+                站在品牌的角度，建立满足企业多元化需求
+                <br>
+                的展示型官网、功能性官网、集团站群、珠海网站建设公司
+            </p>
+            <p class="title2">了解更多<<</p>
+        </div>
+    </div>
+</body>
+
+</html>

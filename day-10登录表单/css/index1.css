@@ -1,0 +1,38 @@
+* {
+    margin: 0; padding: 0;
+}
+
+div {
+    width: 600px;
+    height: 600px;
+    border: solid 1px gray;
+    margin: auto;
+}
+
+fieldset {
+    width: 400px;
+    height: 200px;
+    margin: 20px 0 20px 20px;
+}
+
+label {
+    width: 120px;
+    display: inline-block;
+    text-align: right;
+}
+
+legend {
+    margin-left: 30px;
+}
+
+legend span {
+    width: 92px;
+    font-size: 12px;
+    color: #536d7e;
+    height: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    border: solid 1px gray;
+    display: inline-block;
+    text-align: center;
+}

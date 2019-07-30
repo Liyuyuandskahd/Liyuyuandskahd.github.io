@@ -1,0 +1,519 @@
+* {
+    margin: 0; padding: 0;
+}
+
+#box {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.top {
+    min-width: 1250px;
+    position: relative;
+    height: 90px;
+    background: #7ab5e9 url(../作业/images/logo.png) no-repeat 30px center;
+}
+
+.top .t-bom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    background: url(../作业/images/top-1.png);
+}
+
+.n1,.n2,.n3,.n4,.n5,.n6,.n7 {
+    width: 95px;
+    height: 56px;
+}
+
+.n1 span,.n2 span,.n3 span,.n4 span,.n5 span,.n6 span,.n7 span {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 32.5px;
+}
+
+.n1 {
+    position: absolute;
+    bottom: 0;
+    right: 625px;
+}
+
+.n1 span {
+    background: url(../作业/images/CSS\ Satyr1.png) no-repeat -0px -0px;
+}
+
+.top h1 {
+    width: 265px;
+    height: 22px;
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+
+#box .top .welcome {
+    width: 265px;
+    height: 22px;
+    background: url(../作业/images/dl.png) no-repeat 30px center,url(../作业/images/tc.png) no-repeat 162px center;
+}
+
+.welcome .w1 {
+    font-weight: normal;
+    font-size: 12px;
+    color: #6d6d6d;
+    margin-left: 0px;
+}
+
+.welcome .w2 {
+    font-weight: normal;
+    font-size: 12px;
+    color: #6d6d6d;
+    margin-left: 30px;
+}
+
+.top p {
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.n2 {
+    position: absolute;
+    bottom: 0;
+    right: 530px;
+}
+
+.n2 span {
+    background: url(../作业/images/CSS\ Satyr1.png) no-repeat -0px -30px;
+}
+
+.n3 {
+    position: absolute;
+    bottom: 0;
+    right: 435px;
+}
+
+.n3 span {
+    background: url(../作业/images/CSS\ Satyr1.png) no-repeat -0px -60px;
+}
+
+.n4 {
+    position: absolute;
+    bottom: 0;
+    right: 340px;
+}
+
+.n4 span {
+    background: url(../作业/images/CSS\ Satyr1.png) no-repeat -0px -90px;
+}
+
+.n5 {
+    position: absolute;
+    bottom: 0;
+    right: 245px;
+}
+
+.n5 span {
+    background: url(../作业/images/CSS\ Satyr1.png) no-repeat -0px -120px;
+}
+
+.n6 {
+    position: absolute;
+    bottom: 0;
+    right: 150px;
+}
+
+.n6 span {
+    background: url(../作业/images/CSS\ Satyr1.png) no-repeat -0px -150px;
+}
+
+.n7 {
+    position: absolute;
+    bottom: 0;
+    right: 55px;
+}
+
+.n7 span {
+    background: url(../作业/images/CSS\ Satyr1.png) no-repeat -0px -180px;
+}
+
+.n1:hover,.n2:hover,.n3:hover,.n4:hover,.n5:hover,.n6:hover,.n7:hover {
+    background: url(../作业/images/libj.png)
+}
+
+.n1:hover span{
+    width: 36px;
+    margin-left: 29.5px;
+    background: url(../作业/images/CSS\ Satyr1.png) no-repeat -30px -0px;
+}
+
+.n2:hover span{
+    width: 36px;
+    margin-left: 29.5px;
+    background: url(../作业/images/CSS\ Satyr1.png) no-repeat -30px -30px;
+}
+
+.n3:hover span{
+    width: 36px;
+    margin-left: 29.5px;
+    background: url(../作业/images/CSS\ Satyr1.png) no-repeat -30px -60px;
+}
+
+.n4:hover span{
+    width: 36px;
+    margin-left: 29.5px;
+    background: url(../作业/images/CSS\ Satyr1.png) no-repeat -30px -90px;
+}
+
+.n5:hover span{
+    width: 36px;
+    margin-left: 29.5px;
+    background: url(../作业/images/CSS\ Satyr1.png) no-repeat -30px -120px;
+}
+
+.n6:hover span{
+    width: 36px;
+    margin-left: 29.5px;
+    background: url(../作业/images/CSS\ Satyr1.png) no-repeat -30px -150px;
+}
+
+.n7:hover span{
+    width: 36px;
+    margin-left: 29.5px;
+    background: url(../作业/images/CSS\ Satyr1.png) no-repeat -30px -180px;
+}
+
+.bottom {
+    height: 100%;
+}
+
+.left {
+    width:195px ;
+    height: 100%;
+    background: #417ec8;
+    position: relative;
+}
+
+.l1 {
+    width: 3px;
+    height: 100%;
+    background: url(../作业/images/left-bj01.png);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.l2 {
+    width: 195px;
+    height: 25px;
+    background: url(../作业/images/e_01.jpg) no-repeat left center;
+}
+
+.l3 {
+    width: 100%;
+    height: 2px;
+    background: url(../作业/images/left_02_bj.jpg) no-repeat left center;
+}
+
+.l4 {
+    width: 195px;
+    height: 32px;
+    background: url(../作业/images/left_01.png) no-repeat 14px center;
+}
+
+.l4 span {
+    font-size: 13px;
+    line-height: 32px;
+    margin-left: 39px;
+}
+
+.l4 ul {
+    display: none;
+}
+
+.l4 li {
+    list-style: none;
+    width: 195px;
+    height: 32px;
+    background: url(../作业/images/jiao.png) no-repeat 36px center;
+}
+
+.left li span {
+    font-size: 13px;
+    color: #b9ddf6;
+    line-height: 32px;
+    margin-left: 47px;
+}
+
+.l4:hover {
+    height: auto;
+    background: url(../作业/images/left_01.png) no-repeat 14px 9px,url(../作业/images/left_hover.jpg) no-repeat;
+}
+
+.l4 li:hover {
+    background: url(../作业/images/jiao.png) no-repeat 36px center,url(../作业/images/left_hover.jpg) no-repeat;
+}
+
+.l4:hover ul {
+    display: block;
+}
+
+
+
+/* ---- */
+.l5 {
+    width: 195px;
+    height: 32px;
+    background: url(../作业/images/left_02.png) no-repeat 14px center;
+}
+
+.l5 span {
+    font-size: 13px;
+    line-height: 32px;
+    margin-left: 39px;
+}
+
+.l5 ul {
+    display: none;
+}
+
+.l5 li {
+    list-style: none;
+    width: 195px;
+    height: 32px;
+    background: url(../作业/images/jiao.png) no-repeat 36px center;
+}
+
+
+.l5:hover {
+    height: auto;
+    background: url(../作业/images/left_02.png) no-repeat 14px 11px,url(../作业/images/left_hover.jpg) no-repeat;
+}
+
+.l5 li:hover {
+    background: url(../作业/images/jiao.png) no-repeat 36px center,url(../作业/images/left_hover.jpg) no-repeat;
+}
+
+.l5:hover ul {
+    display: block;
+}
+
+/* ------- */
+.l6 {
+    width: 195px;
+    height: 32px;
+    background: url(../作业/images/left_03.png) no-repeat 14px center;
+}
+
+.l6 span {
+    font-size: 13px;
+    line-height: 32px;
+    margin-left: 39px;
+}
+
+.l6 ul {
+    display: none;
+}
+
+.l6 li {
+    list-style: none;
+    width: 195px;
+    height: 32px;
+    background: url(../作业/images/jiao.png) no-repeat 36px center;
+}
+
+
+.l6:hover {
+    height: auto;
+    background: url(../作业/images/left_03.png) no-repeat 14px 9px,url(../作业/images/left_hover.jpg) no-repeat;
+}
+
+.l6 li:hover {
+    background: url(../作业/images/jiao.png) no-repeat 36px center,url(../作业/images/left_hover.jpg) no-repeat;
+}
+
+.l6:hover ul {
+    display: block;
+}
+
+.left li:hover span {
+    color: black;
+}
+
+.right {
+    min-width: 1000px;
+    position: absolute;
+    left: 195px;
+    top: 90px;
+    right: 0;
+    bottom: 0;
+    background: #ffffff;
+    padding:  0 15px;
+}
+
+.rbj1 {
+    width: 5px;
+    height: 100%;
+    background: url(../作业/images/rbj-3.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.rbj2 {
+    width: 9px;
+    height: 100%;
+    background: url(../作业/images/sq.png) no-repeat;
+    position: absolute;
+    top: 280px;
+    left: 0;
+}
+ 
+.r1 {
+    width: 100%;
+    height: 26px;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.r2 {
+    width: 100%;
+    height: 51px;
+}
+
+.r2 p {
+    width: 100%;
+    height: 26px;
+    margin-top: 13px;
+    background: url(../作业/images/seacth.jpg) no-repeat left 3px;
+}
+
+.r2 p span{
+    font-size: 12px;
+    line-height: 26px;
+    color: #333333;
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+.r2 label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+#name {
+    width: 180px;
+    height: 20px;
+}
+
+.chaxun {
+    width: 58px;
+    height: 24px;
+}
+
+#leixing {
+    width: 180px;
+    height: 24px;
+}
+
+.r3 {
+    width: 100%;
+    height: 375px;
+    padding: 0;
+    border-spacing: 0;font-size: 12px;
+    border: solid 1px #d6d6d6;
+}
+
+.thead td {
+    position: relative;
+    background: url(../作业/images/r3bj-1.png);
+}
+
+.thead .thead-1{
+    width: 45px;
+    height: 14px;
+    display: inline-block;
+    background: url(../作业/images/tj.jpg);
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+
+.thead .thead-2{
+    width: 46px;
+    height: 14px;
+    display: inline-block;
+    background: url(../作业/images/sc.jpg);
+    position: absolute;
+    top: 10px;
+    right: 33px;
+}
+
+.thead .thead-3{
+    width: 3px;
+    height: 15px;
+    display: inline-block;
+    background: url(../作业/images/r3bj-2.png);
+    position: absolute;
+    top: 10px;
+    right: 90px;
+}
+
+table td,table th {
+    height: 31px;
+    text-align: center;
+    border-top: solid 1px #d6d6d6;
+    border-bottom: solid 1px #d6d6d6;
+}
+
+.tdimg1 span {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(../作业/images/device-1.png);
+}
+
+.tdimg1-1 span {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(../作业/images/device-2.png);
+}
+
+
+.tdimg2 span {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(../作业/images/share-1.png);
+}
+
+.tdimg2-2 span {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(../作业/images/share-2.png);
+}
+
+.tdimg3 span {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(../作业/images/xg.png);
+}
+
+.r4 {
+    padding-left: 40px;
+    margin-top: 18px;
+    font-size: 12px;
+}
+
+tr:nth-child(2n) {
+    background: url(../作业/images/r3bj-3.png);
+}

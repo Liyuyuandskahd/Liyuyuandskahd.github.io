@@ -1,0 +1,44 @@
+* {
+    margin: 0; padding: 0;
+}
+
+table {
+    border-spacing: 0;
+    padding: 0;
+    width: 600px;
+    height: 242px;
+    border: 1px solid #0047e1;
+    text-align: center;
+    margin: auto;
+}
+
+thead {
+    text-align: center;
+}
+
+tr {
+ height: 21px;
+}
+
+.one {
+    font-size: 12px;
+    color: #ffffff;
+    background: #0047e1;
+}
+
+.tow td{
+    font-size: 12px;
+    color: #d8e4f8;
+    background: #7e9de5;
+    text-align: left;
+}
+
+.three {
+    font-size: 12px;
+    color: #666666;
+    background: #ffffff;
+}
+
+tr:nth-child(2n) {
+    background: #fef0f5;
+}

@@ -1,0 +1,235 @@
+*{
+    margin: 0;padding: 0;
+}
+#seatwork{
+    width: 780px;
+    height: 1610px;
+    background: #f2f1ef;
+    margin: auto;
+    overflow: hidden;
+}
+.head{
+    width: 780px;
+    height: 20px;
+    background: #d6dae2;
+}
+.box1{
+    width: 740px;
+    height: 314px;
+    background: #f2f1ef;
+    background-image: url(../image/作业图片/icon1.png);
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    padding: 20px;
+    margin: auto;
+}
+.h1{
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    margin: 20px 0 0 30px;
+}
+.h2{
+    font-size: 10px;
+    line-height: 10px;
+    color: #888888;
+    float: right;
+}
+.body1{
+    width: 740px;
+    height: 254px;
+    padding-top: 20px; 
+}
+.b-left1,.b-left2,.b-left3{
+    width: 226px;
+    height: 273px;
+    float: left;
+    background: #ffffff;
+}
+.b-left2{
+    margin: 0 31px;
+}
+.img1,.img2,.img3{
+    width: 226px;
+    height: 160px;
+    display: block;
+}
+.img1{
+    border-bottom: solid 3px #1fc0ef;
+    background-image: url(../image/作业图片/list1-1.png);
+}
+.img2{
+    border-bottom: solid 3px #f6a544;
+    background-image: url(../image/作业图片/list1-2.png);
+}
+.img3{
+    border-bottom: solid 3px #8cbe00;
+    background-image: url(../image/作业图片/list1-3.png);
+}
+.h3{
+    font-size: 14px;
+    color: #000000;
+    line-height: 14px;
+    margin: 18px 17px 7px 10px;
+}
+.title-1{
+    font-size: 12px;
+    color: #888888;
+    line-height: 20px;
+    margin: 0px 17px 0px 10px;
+}
+.box2{
+    width: 740px;
+    height: 460px;
+    background: #f2f1ef;
+    background-image: url(../image/作业图片/icon2.png);
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    padding: 20px;
+    margin: auto;
+}
+.body2{
+    width: 740px;
+    height: 420px;
+    padding-top: 20px; 
+}
+.b2-top1, .b2-top2,.b2-top3{
+    width: 740px;
+    height: 126px;
+    background: #ffffff;
+    margin-bottom: 20px; 
+    background-repeat: no-repeat;
+}
+.b2-top1{
+    background-image: url(../image/作业图片/icon-at.png);
+    background-position: 650px -20px;
+}
+.b2-top2{
+    background-image: url(../image/作业图片/icon-video.png);
+    background-position: 650px -20px;
+}
+.b2-top3{
+    background-image: url(../image/作业图片/icon-laptop.png);
+    background-position: 650px -20px;
+}
+.list2-1,.list2-2,.list2-3{
+    width: 126px;
+    height: 126px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+}
+.list2-1{
+    background-image: url(../image/作业图片/list2-1.png);
+}
+.list2-2{
+    background-image: url(../image/作业图片/list2-2.png);
+}
+.list2-3{
+    background-image: url(../image/作业图片/list2-3.png);
+}
+.title-2{
+    width: 490px;
+    height: 126px;
+}
+.list2-1,.list2-2,.list2-3,.title-2{
+    float: left;
+}
+.h4{
+    font-size: 18px;
+    color: #000000;
+    line-height: 18px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.h5{
+    background-image: url(../image/作业图片/icon4.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: block;
+    margin: 5px 0;
+}
+.h5 span{
+    margin-left: 17px;
+    color: #888888;
+}
+.h6{
+    font-size: 14px;
+    color: #000000;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+.box3{
+    width: 740px;
+    height: 620px;
+    background: #f2f1ef;
+    background-image: url(../image/作业图片/icon3.png);
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    padding: 20px;
+    margin: auto;
+}
+.body3{
+    width: 740px;
+    height: 580px;
+    padding-top: 20px; 
+}
+.b3-top1, .b3-top2,.b3-top3{
+    width: 740px;
+    height: 180px;
+    background: #f2f1ef;
+    background-repeat: no-repeat;
+    background-position: right center;
+    border-bottom: solid 2px #e4e3e2;
+}
+.list3-1,.list3-2,.list3-3{
+    width: 246px;
+    height: 160px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 0 20px;
+}
+.list3-1{
+    background-image: url(../image/作业图片/list3-1.png);
+}
+.list3-2{
+    background-image: url(../image/作业图片/list3-2.png);
+}
+.list3-3{
+    background-image: url(../image/作业图片/list3-3.png);
+}
+.title-3{
+    width: 462px;
+    height: 160px;
+}
+.list3-1,.list3-2,.list3-3,.title-3{
+    float: left;
+}
+.h7{
+    font-size: 18px;
+    color: #000000;
+    line-height: 18px;
+    text-transform: capitalize;
+    margin-top: 25px;
+}
+.h8{
+    background-image: url(../image/作业图片/icon4.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: block;
+    margin: 5px 0;
+}
+.h8 span{
+    margin-left: 17px;
+    color: #888888;
+}
+.h9{
+    font-size: 14px;
+    color: #000000;
+    line-height: 18px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
