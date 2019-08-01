@@ -1,0 +1,44 @@
+* {
+    margin: 0; padding: 0;
+}
+
+.box {
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    background: url(../练习/feature.jpg)
+}
+
+.box1 {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+.box .box1:nth-child(2n-1) {
+    align-self: flex-end;
+}
+
+h2 {
+    line-height: 60px;
+}
+
+p {
+    line-height: 30px;
+}
+
+h3 {
+    line-height: 40px;
+}
+
+span {
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    color: #FF3D4F;
+    line-height: 30px;
+    border: solid 1px #FF3D4F;
+    border-radius: 15px;
+    margin-top: 20px;
+}
