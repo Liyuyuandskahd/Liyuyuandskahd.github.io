@@ -20,5 +20,5 @@
 <br>
 <a href="https://liyuyuandskahd.github.io/day-11%20H5%E8%AF%AD%E4%B9%89%E5%8C%96%E6%A0%87%E7%AD%BE/html/lianxi4-%E7%9B%92%E5%AD%90%E9%98%B4%E5%BD%B1.html">day11-盒子阴影</a>
 
-<h2>day12作业</h2>
-<a href="https://liyuyuandskahd.github.io/day-13%E5%BC%B9%E6%80%A7%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B/html/seatword1.html">day12-婚礼纪</a>
+<h2>day13作业</h2>
+<a href="https://liyuyuandskahd.github.io/day-13%E5%BC%B9%E6%80%A7%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B/html/seatword1.html">day13-婚礼纪</a>
