@@ -1,0 +1,440 @@
+#kaiyuan {
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 8%;
+    background: url(../作业/开源博客页面/01.png) no-repeat center center;
+    background-size: 30px 34px;
+    border-bottom: solid 1px #ebebeb;
+}
+
+.content {
+    width: 90%;
+    height: 100%;
+    padding-top:17px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav {
+    height: 4.5%;
+    overflow: hidden;
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: solid 2px #e1e1e1;
+        li {
+            text-align: center;
+            font-size: 7px;
+            height: 28px;
+            line-height: 28px;
+            padding: 0 10px;
+        }
+        li:nth-child(1) {
+            width: 20px;
+            height: 32px;
+            background: url(../作业/开源博客页面/ghf.png) no-repeat center center;
+            background-size: 100% 100%;
+            border-bottom: none;
+        }
+
+        li:nth-child(n+1) {
+            border-bottom: none;
+        }
+    }
+}
+
+.nav:hover {
+    height: 29.5%;
+}
+
+.nav li:hover {
+    color: #e67e22;
+}
+
+
+.main {
+    width: 100%;
+    height: 80%;
+    background: #ebebeb;
+    overflow: auto;
+}
+
+.m-left {
+    width: 100%;
+    background: #ebebeb;
+    .left-mod1,
+    .left-mod3,
+    .left-mod5,
+    .left-mod6,
+    .left-mod7,
+    .left-mod8,
+    .left-mod9,
+    .left-mod10 {
+        width: 100%;
+        padding: 22px 17px;
+        box-sizing: border-box;
+        margin-bottom: 17px;
+        background: #ffffff;
+        .mod-ctent {
+            width: 100%;
+            border-bottom: solid 1px #ebebeb;
+            h1 {
+                font-weight: normal;
+                font-size: 17px;
+                line-height: 17px;
+                color: #303030;
+                text-align: center;
+            }
+            
+            .title-1 {
+                font-size: 7px;
+                color: #959595;
+                margin-top: 11px;
+                text-align: center;
+            }
+    
+            p span:nth-child(1)::after {
+                content: "王赛";
+                color: #e67e22;
+                font-size: 7px;
+            }
+    
+            .title-2 {
+                font-size: 9px;
+                line-height: 14px;
+                color: #444443;
+                margin-top: 18px;
+            }
+    
+            .title-3 {
+                width: 43px;
+                height: 18px;
+                background: #e67e22;
+                font-size: 7px;
+                line-height: 18px;
+                color: #ffffff;
+                margin-top: 15px;
+                text-align: center;
+                margin-bottom: 15px;
+            }
+        }
+        .title-4 {
+            width: 5px;
+            height: 7px;
+            display: inline-block;
+            background: url(../作业/开源博客页面/bt-1.png);
+            background-size: 100% 100%;
+            margin-top: 13px;
+        }
+    }
+
+    .left-mod2,
+    .left-mod4 {
+        width: 100%;
+        padding: 22px 17px;
+        box-sizing: border-box;
+        margin-bottom: 17px;
+        background: #ffffff;
+        .mod-ctent {
+            width: 100%;
+            border-bottom: solid 1px #ebebeb;
+            h1 {
+                font-weight: normal;
+                font-size: 17px;
+                line-height: 17px;
+                color: #303030;
+                text-align: center;
+            }
+            
+            .title-1 {
+                font-size: 7px;
+                color: #959595;
+                margin-top: 11px;
+                text-align: center;
+            }
+    
+            p span:nth-child(1)::after {
+                content: "王赛";
+                color: #e67e22;
+                font-size: 7px;
+            }
+    
+            .title-2 {
+                margin-top: 18px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    margin-bottom: 18px;
+                }
+                span {
+                    font-size: 9px;
+                    line-height: 14px;
+                    color: #444443;
+                }
+            }
+    
+            .title-3 {
+                width: 43px;
+                height: 18px;
+                background: #e67e22;
+                font-size: 7px;
+                line-height: 18px;
+                color: #ffffff;
+                margin-top: 15px;
+                text-align: center;
+                margin-bottom: 15px;
+            }
+        }
+        .title-4 {
+            width: 5px;
+            height: 7px;
+            display: inline-block;
+            background: url(../作业/开源博客页面/bt-1.png);
+            background-size: 100% 100%;
+            margin-top: 13px;
+        }
+    }
+
+    .fanye {
+        text-align: center;
+        font-size: 7px;
+        color: #ffffff;
+        line-height: 18px;
+        span:nth-child(1) {
+            width: 63px;
+            height: 18px;
+            background: #e67e22;
+            display: inline-block;
+            margin-right: 3px;
+        }
+        span:nth-child(2) {
+            width: 18px;
+            height: 18px;
+            background: #e67e22;
+            display: inline-block;
+        }
+    }
+}
+
+.m-right {
+    width: 100%;
+    background: #ebebeb;
+    .right-mod1 {
+        width: 100%;
+        padding: 6px 15px 15px 15px;
+        box-sizing: border-box;
+        background: #ffffff;
+        margin-bottom: 17px;
+        margin-top: 35px;
+        h2 {
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 15px;
+            border-bottom: solid 1px #ebebeb;
+        }
+        p:nth-child(2) {
+            margin-top: 8px;
+            font-size: 6px;
+            line-height: 15px;
+            color: #505050;
+        }
+        p:nth-child(n+3) {
+            font-size: 6px;
+            line-height: 15px;
+            color: #e67e22;
+        }
+
+        p:nth-child(n+3) span:nth-child(1){
+            width: 5px;
+            height: 7px;
+            display: inline-block;
+            background: url(../作业/开源博客页面/bt-2.png);
+            background-size: 100% 100%;
+        }
+    }
+
+    .right-mod2 {
+        width: 100%;
+        padding: 11px 15px;
+        box-sizing: border-box;
+        background: #ffffff;
+        margin-bottom: 17px;
+        h2 {
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 15px;
+            border-bottom: solid 1px #ebebeb;
+        }
+        p {
+            width: 150px;
+            height: 18px;
+            font-size: 7px;
+            color: #ffffff;
+            line-height: 18px;
+            text-align: center;
+            background: #e67e22;
+            margin-top: 10px;
+        }
+    }
+
+    .right-mod3 {
+        width: 100%;
+        padding: 11px 15px;
+        box-sizing: border-box;
+        background: #ffffff;
+        margin-bottom: 17px;
+        h2 {
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 15px;
+            border-bottom: solid 1px #ebebeb;
+        }
+        ul {
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 6px 0px;
+            li {
+                font-size: 7px;
+                line-height: 13px;
+                color: #959595;
+                text-align: center;
+                padding: 0px 4px;
+                margin-top: 4px;
+                margin-right: 5px;
+                border: solid 1px #ebebeb;
+            }
+        }
+
+    }
+}
+
+.footer {
+    width: 100%;
+    height: 7.5%;
+}
+
+.f-top {
+    background: #202020;
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 18px 0px;
+        box-sizing: border-box;
+        .top-mod1 {
+            width: 100%;
+            h3 {
+                font-weight: normal;
+                width: 45px;
+                font-size: 11px;
+                line-height: 19px;
+                color: #ffffff;
+                border-bottom: solid 1px #e67e22;
+            }
+            ul {
+                border-top: solid 1px #303030;
+                li {
+                    padding: 7px 0px;
+                    line-height: 12px;
+                    border-bottom: dashed 1px #303030;
+                    p:nth-child(1) {
+                        font-size: 6px;
+                        color: #959595;
+                    }
+                    p:nth-child(2) {
+                        font-size: 6px;
+                        color: #505050;
+                    }
+                }
+            }
+        }
+
+        .top-mod2 {
+            width: 100%;
+            h3 {
+                font-weight: normal;
+                width: 45px;
+                font-size: 11px;
+                line-height: 19px;
+                color: #ffffff;
+                border-bottom: solid 1px #e67e22;
+            }
+            ul {
+                border-top: solid 1px #303030;
+                display: flex;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+                list-style: none;
+                padding: 6px 0px;
+                li {
+                    font-size: 7px;
+                    line-height: 13px;
+                    color: #959595;
+                    text-align: center;
+                    padding: 0px 4px;
+                    margin-top: 4px;
+                    margin-right: 5px;
+                    border: solid 1px #303030;
+                }
+            }
+        }
+
+        .top-mod3 {
+            width: 100%;
+            h3 {
+                font-weight: normal;
+                width: 45px;
+                font-size: 11px;
+                line-height: 19px;
+                color: #ffffff;
+                border-bottom: solid 1px #e67e22;
+            }
+            ul {
+                border-top: solid 1px #303030;
+                li {
+                    padding: 7px 0px;
+                    line-height: 12px;
+                    font-size: 6px;
+                    color: #959595;
+                    border-bottom: dashed 1px #303030;
+                    span {
+                        margin-right: 12px;
+                    }
+                }
+                li:nth-child(4) {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+}
+
+.f-bottom {
+    height: 40px;
+    background: #111111;
+    .content {
+        ul {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            li {
+                font-size: 5px;
+                color: #555555;
+                padding: 0px 5px;
+                border-right: solid 1px #555555;
+            }
+            li:nth-child(3) {
+                border-right: none;
+            }
+        }
+    }
+}
