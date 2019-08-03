@@ -22,3 +22,6 @@
 
 <h2>day13作业</h2>
 <a href="https://liyuyuandskahd.github.io/day-13%E5%BC%B9%E6%80%A7%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B/html/seatword1.html">day13-婚礼纪</a>
+
+<h2>day14作业</h2>
+<a href="https://liyuyuandskahd.github.io/day14-%E5%A4%9A%E5%88%97%E5%B8%83%E5%B1%80%E5%92%8C%E5%AA%92%E4%BD%93%E6%9F%A5%E8%AF%A2/html/seatword1-%E5%BC%80%E6%BA%90%E5%8D%9A%E5%AE%A2.html">day14-开源博客</a>
