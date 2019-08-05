@@ -1,0 +1,587 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+#eleme {
+  position: relative;
+  height: 100%;
+}
+
+#eleme main {
+  height: 90%;
+  overflow: auto;
+  border-bottom: .04rem solid #ededed;
+}
+
+#eleme main header {
+  height: 2.533333rem;
+  background: #0094fe;
+  padding: 0 .506667rem;
+}
+
+#eleme main header select {
+  margin-top: .506667rem;
+  background: #0094fe;
+  border: none;
+  font-size: .426667rem;
+  color: #ffffff;
+}
+
+#eleme main header input {
+  margin-top: .266667rem;
+  width: 100%;
+  height: .933333rem;
+  border: none;
+  font-size: .346667rem;
+  line-height: .933333rem;
+  color: #9e9e9e;
+  padding-left: 2.133333rem;
+  box-sizing: border-box;
+  outline: none;
+}
+
+#eleme main header :hover {
+  padding-left: 0;
+}
+
+#eleme main nav ul {
+  width: 100%;
+  height: 4.466667rem;
+  padding: .4rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#eleme main nav ul li {
+  width: 20%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#eleme main nav ul li i {
+  font-style: normal;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+#eleme main nav ul li p {
+  font-size: .32rem;
+  color: #757575;
+}
+
+#eleme main nav ul li:nth-child(1) i {
+  background: url(../练习/饿了么/images/icon1.webp);
+  background-size: 100% 100%;
+}
+
+#eleme main nav ul li:nth-child(2) i {
+  background: url(../练习/饿了么/images/icon2.webp);
+  background-size: 100% 100%;
+}
+
+#eleme main nav ul li:nth-child(3) i {
+  background: url(../练习/饿了么/images/icon3.webp);
+  background-size: 100% 100%;
+}
+
+#eleme main nav ul li:nth-child(4) i {
+  background: url(../练习/饿了么/images/icon4.webp);
+  background-size: 100% 100%;
+}
+
+#eleme main nav ul li:nth-child(5) i {
+  background: url(../练习/饿了么/images/icon5.webp);
+  background-size: 100% 100%;
+}
+
+#eleme main nav ul li:nth-child(6) i {
+  background: url(../练习/饿了么/images/icon6.webp);
+  background-size: 100% 100%;
+}
+
+#eleme main nav ul li:nth-child(7) i {
+  background: url(../练习/饿了么/images/icon7.webp);
+  background-size: 100% 100%;
+}
+
+#eleme main nav ul li:nth-child(8) i {
+  background: url(../练习/饿了么/images/icon8.webp);
+  background-size: 100% 100%;
+}
+
+#eleme main nav ul li:nth-child(9) i {
+  background: url(../练习/饿了么/images/icon9.webp);
+  background-size: 100% 100%;
+}
+
+#eleme main nav ul li:nth-child(10) i {
+  background: url(../练习/饿了么/images/icon10.webp);
+  background-size: 100% 100%;
+}
+
+#eleme main .content {
+  width: 100%;
+  padding: 0 .266667rem;
+  box-sizing: border-box;
+}
+
+#eleme main .content .content-1 {
+  padding: .4rem;
+  box-sizing: border-box;
+  height: 2.933333rem;
+  background: #f9f9f9 url(../练习/饿了么/images/list1.webp) no-repeat 5.4rem center;
+  background-size: 3.76rem 2.506667rem;
+}
+
+#eleme main .content .content-1 p:nth-child(1) {
+  font-size: .4rem;
+  line-height: .4rem;
+  font-weight: bold;
+}
+
+#eleme main .content .content-1 p:nth-child(2) {
+  font-size: .346667rem;
+  line-height: .346667rem;
+  color: #757575;
+  margin-top: .2rem;
+}
+
+#eleme main .content .content-1 p:nth-child(3) {
+  font-size: .293333rem;
+  line-height: .293333rem;
+  margin-top: .306667rem;
+  font-weight: bold;
+  color: #c5957f;
+}
+
+#eleme main .content .content-2 {
+  margin-top: .093333rem;
+  height: 1.066667rem;
+  background: #f9e5b0;
+}
+
+#eleme main .content .content-3 {
+  margin-top: .133333rem;
+  height: 2.346667rem;
+  background: #0886ff;
+}
+
+#eleme main .content .content-4 {
+  margin-top: .506667rem;
+}
+
+#eleme main .content .content-4 p {
+  font-size: .4rem;
+  text-align: center;
+}
+
+#eleme main .content .content-4 ::before {
+  content: "———";
+  color: #757575;
+  margin-right: 25px;
+}
+
+#eleme main .content .content-4 ::after {
+  content: "———";
+  color: #757575;
+  margin-left: 25px;
+}
+
+#eleme main .content .content-5 {
+  margin-top: .613333rem;
+}
+
+#eleme main .content .content-5 ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#eleme main .content .content-5 ul li {
+  text-align: center;
+  width: 25%;
+  font-size: .373333rem;
+  color: #757575;
+}
+
+#eleme main .content .shop-1 {
+  height: 4.666667rem;
+  display: flex;
+  justify-content: space-around;
+  padding: .4rem 0;
+  margin-top: .373333rem;
+}
+
+#eleme main .content .shop-1 .img {
+  width: 1.706667rem;
+  height: 1.706667rem;
+}
+
+#eleme main .content .shop-1 .img img {
+  width: 1.706667rem;
+  height: 1.706667rem;
+}
+
+#eleme main .content .shop-1 .title {
+  width: 7.466667rem;
+  height: 100%;
+}
+
+#eleme main .content .shop-1 .title h4 {
+  width: 6.266667rem;
+  font-size: .373333rem;
+  font-weight: bold;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#eleme main .content .shop-1 .title h4 span {
+  width: .72rem;
+  height: .453333rem;
+  font-size: .293333rem;
+  line-height: .453333rem;
+  text-align: center;
+  color: #6b3e15;
+  display: inline-block;
+  background: #ffed15;
+  margin-right: .133333rem;
+}
+
+#eleme main .content .shop-1 .title p {
+  margin-top: .266667rem;
+  display: flex;
+}
+
+#eleme main .content .shop-1 .title p span:nth-child(1) img {
+  width: 1.466667rem;
+  height: .266667rem;
+}
+
+#eleme main .content .shop-1 .title p span:nth-child(2) {
+  font-size: .266667rem;
+  color: #6d6d6d;
+}
+
+#eleme main .content .shop-1 .title p span:nth-child(3) {
+  width: 1.133333rem;
+  height: .333333rem;
+  line-height: .333333rem;
+  text-align: center;
+  font-size: .266667rem;
+  color: #ffffff;
+  display: block;
+  background: #0290ff;
+  margin-left: 2.666667rem;
+  border-radius: .066667rem;
+}
+
+#eleme main .content .shop-1 .title ul {
+  margin-top: .266667rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#eleme main .content .shop-1 .title ul li {
+  font-size: .266667rem;
+  color: #6d6d6d;
+}
+
+#eleme main .content .shop-1 .title ul li:nth-child(1) span:nth-child(1)::after {
+  content: "";
+  border-right: 1px solid #e4e4e4;
+  margin: 0 .106667rem;
+}
+
+#eleme main .content .shop-1 .title ul li:nth-child(2) span:nth-child(1)::after {
+  content: "";
+  border-right: 1px solid #e4e4e4;
+  margin: 0 .106667rem;
+}
+
+#eleme main .content .shop-1 .title h6 {
+  margin-top: .333333rem;
+}
+
+#eleme main .content .shop-1 .title h6 span:nth-child(1),
+#eleme main .content .shop-1 .title h6 span:nth-child(2) {
+  width: 1.253333rem;
+  height: .36rem;
+  line-height: .36rem;
+  border: solid 1px #dddddd;
+  font-size: .266667rem;
+  color: #6f6f6f;
+  text-align: center;
+  display: inline-block;
+}
+
+#eleme main .content .shop-1 .title h6 span:nth-child(2) {
+  color: #303030;
+  margin-left: .133333rem;
+}
+
+#eleme main .content .shop-1 .title .zhekou {
+  margin-top: .4rem;
+  border-top: dashed 1px #e6e6e6;
+}
+
+#eleme main .content .shop-1 .title .zhekou p {
+  border-top: .12rem;
+  font-size: .293333rem;
+  color: #7c7c7c;
+}
+
+#eleme main .content .shop-1 .title .zhekou p:nth-child(1) span:nth-child(1) {
+  width: .373333rem;
+  height: .373333rem;
+  display: inline-block;
+  font-size: .293333rem;
+  color: #ffffff;
+  margin-right: .16rem;
+  background: #f77074;
+  text-align: center;
+}
+
+#eleme main .content .shop-1 .title .zhekou p:nth-child(1) span:nth-child(3) {
+  font-size: .266667rem;
+  color: #b2b2b2;
+  margin-left: 2.853333rem;
+  background: none;
+}
+
+#eleme main .content .shop-1 .title .zhekou p:nth-child(2) span:nth-child(1) {
+  width: .373333rem;
+  height: .373333rem;
+  display: inline-block;
+  font-size: .293333rem;
+  color: #ffffff;
+  margin-right: .16rem;
+  background: #e88c5b;
+  text-align: center;
+}
+
+#eleme main .content .shop-2 {
+  height: 4.666667rem;
+  display: flex;
+  justify-content: space-around;
+  padding: .4rem 0;
+  margin-top: .373333rem;
+}
+
+#eleme main .content .shop-2 .img {
+  width: 1.706667rem;
+  height: 1.706667rem;
+}
+
+#eleme main .content .shop-2 .img img {
+  width: 1.706667rem;
+  height: 1.706667rem;
+}
+
+#eleme main .content .shop-2 .title {
+  width: 7.466667rem;
+  height: 100%;
+}
+
+#eleme main .content .shop-2 .title h4 {
+  width: 6.266667rem;
+  font-size: .373333rem;
+  font-weight: bold;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#eleme main .content .shop-2 .title h4 span {
+  width: .72rem;
+  height: .453333rem;
+  font-size: .293333rem;
+  line-height: .453333rem;
+  text-align: center;
+  color: #6b3e15;
+  display: inline-block;
+  background: #ffed15;
+  margin-right: .133333rem;
+}
+
+#eleme main .content .shop-2 .title p {
+  margin-top: .266667rem;
+  display: flex;
+}
+
+#eleme main .content .shop-2 .title p span:nth-child(1) img {
+  width: 1.466667rem;
+  height: .266667rem;
+}
+
+#eleme main .content .shop-2 .title p span:nth-child(2) {
+  font-size: .266667rem;
+  color: #6d6d6d;
+}
+
+#eleme main .content .shop-2 .title p span:nth-child(3) {
+  width: 1.133333rem;
+  height: .333333rem;
+  line-height: .333333rem;
+  text-align: center;
+  font-size: .266667rem;
+  color: #ffffff;
+  display: block;
+  background: #0290ff;
+  margin-left: 2.666667rem;
+  border-radius: .066667rem;
+}
+
+#eleme main .content .shop-2 .title ul {
+  margin-top: .266667rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#eleme main .content .shop-2 .title ul li {
+  font-size: .266667rem;
+  color: #6d6d6d;
+}
+
+#eleme main .content .shop-2 .title ul li:nth-child(1) span:nth-child(1)::after {
+  content: "";
+  border-right: 1px solid #e4e4e4;
+  margin: 0 .106667rem;
+}
+
+#eleme main .content .shop-2 .title ul li:nth-child(2) span:nth-child(1)::after {
+  content: "";
+  border-right: 1px solid #e4e4e4;
+  margin: 0 .106667rem;
+}
+
+#eleme main .content .shop-2 .title h6 {
+  margin-top: .333333rem;
+}
+
+#eleme main .content .shop-2 .title h6 span:nth-child(1),
+#eleme main .content .shop-2 .title h6 span:nth-child(2) {
+  width: 1.253333rem;
+  height: .36rem;
+  line-height: .36rem;
+  border: solid 1px #dddddd;
+  font-size: .266667rem;
+  color: #6f6f6f;
+  text-align: center;
+  display: inline-block;
+}
+
+#eleme main .content .shop-2 .title h6 span:nth-child(2) {
+  color: #303030;
+  margin-left: .133333rem;
+}
+
+#eleme main .content .shop-2 .title .zhekou {
+  margin-top: .4rem;
+  border-top: dashed 1px #e6e6e6;
+}
+
+#eleme main .content .shop-2 .title .zhekou p {
+  border-top: .12rem;
+  font-size: .293333rem;
+  color: #7c7c7c;
+}
+
+#eleme main .content .shop-2 .title .zhekou p:nth-child(1) span:nth-child(1) {
+  width: .373333rem;
+  height: .373333rem;
+  display: inline-block;
+  font-size: .293333rem;
+  color: #ffffff;
+  margin-right: .16rem;
+  background: #f77074;
+  text-align: center;
+}
+
+#eleme main .content .shop-2 .title .zhekou p:nth-child(1) span:nth-child(3) {
+  font-size: .266667rem;
+  color: #b2b2b2;
+  margin-left: 2.853333rem;
+  background: none;
+}
+
+#eleme main .content .shop-2 .title .zhekou p:nth-child(2) span:nth-child(1) {
+  width: .373333rem;
+  height: .373333rem;
+  display: inline-block;
+  font-size: .293333rem;
+  color: #ffffff;
+  margin-right: .16rem;
+  background: #e88c5b;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  bottom: 0;
+}
+
+footer ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer ul li {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer ul li i {
+  font-style: normal;
+  width: .48rem;
+  height: .48rem;
+  display: inline-block;
+}
+
+footer ul li p {
+  margin-top: .066667rem;
+  font-size: .24rem;
+  color: #929294;
+}
+
+footer ul li:nth-child(1) i:nth-child(1) {
+  background: url(../练习/饿了么/images/footer-1.png);
+  background-size: 100% 100%;
+}
+
+footer ul li:nth-child(2) i {
+  background: url(../练习/饿了么/images/footer-2.png);
+  background-size: 100% 100%;
+}
+
+footer ul li:nth-child(3) i {
+  background: url(../练习/饿了么/images/footer-3.png);
+  background-size: 100% 100%;
+}
+
+footer ul li:nth-child(4) i {
+  background: url(../练习/饿了么/images/footer-4.png);
+  background-size: 100% 100%;
+}
