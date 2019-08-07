@@ -28,3 +28,6 @@
 
 <h2>day15作业</h2>
 <a href="https://liyuyuandskahd.github.io/day15-%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%B8%83%E5%B1%80/html/lianxi%E9%A5%BF%E4%BA%86%E4%B9%88.html">day15-饿了么</a>
+
+<h2>day16作业</h2>
+<a href="https://liyuyuandskahd.github.io/day16-%E6%B8%90%E5%8F%98/html/seatwork1-%E5%A9%9A%E7%A4%BC%E7%BA%AA%E7%A7%BB%E5%8A%A8%E7%AB%AF.html">day16-婚礼纪移动端</a>
