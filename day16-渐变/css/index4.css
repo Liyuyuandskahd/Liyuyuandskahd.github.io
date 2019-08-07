@@ -1,0 +1,671 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.clearflex::after {
+  content: "";
+  height: 0;
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+@keyframes mystyle {
+  0% {
+    transform: translate(0vw, 0vw);
+  }
+  20% {
+    transform: translate(-91.2vw, 0vw);
+  }
+  40% {
+    transform: translate(-182.4vw, 0vw);
+  }
+  60% {
+    transform: translate(-273.6vw, 0vw);
+  }
+  80% {
+    transform: translate(-364.8vw, 0vw);
+  }
+  100% {
+    transform: translate(-456vw, 0vw);
+  }
+}
+
+#hunliji {
+  height: 100%;
+}
+
+#hunliji header {
+  height: 14.66667vw;
+  margin: 2.93333vw 4.4vw;
+  background: url(../练习/婚礼纪-移动端/images/logo.png) no-repeat left center;
+  background-size: 24.53333vw 8.53333vw;
+}
+
+#hunliji header i {
+  width: 4.26667vw;
+  height: 4vw;
+  float: right;
+  margin-top: 4vw;
+  background: url(../练习/婚礼纪-移动端/images/o_1ckeu2uusfl01sst1lg0gjs1aul3g.png);
+  background-size: 100% 100%;
+}
+
+#hunliji header span {
+  font-size: 3.2vw;
+  color: #353535;
+  line-height: 14.66667vw;
+  margin-left: 27.6vw;
+}
+
+#hunliji .banner {
+  width: 100%;
+  height: 36.66667vw;
+  box-shadow: 0 -0.66667vw 0.66667vw rgba(0, 0, 0, 0.08) inset;
+  border-radius: 5% 5% 50% 50%/10% 10% 15% 15%;
+}
+
+#hunliji .banner .banner-cont {
+  width: 91.2vw;
+  height: 36.66667vw;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  border-radius: 5% 5% 50% 50%/10% 10% 11% 11%;
+}
+
+#hunliji .banner .banner-cont img {
+  width: 100%;
+  height: 36.66667vw;
+  animation: mystyle ease 12s infinite 0s alternate;
+}
+
+#hunliji .main {
+  padding: 0 4.4vw;
+}
+
+#hunliji .main nav {
+  width: 100%;
+  height: 46vw;
+}
+
+#hunliji .main nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#hunliji .main nav ul li {
+  width: 20%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hunliji .main nav ul li i {
+  width: 16vw;
+  height: 12.8vw;
+  display: block;
+}
+
+#hunliji .main nav ul li p {
+  font-size: 3.2vw;
+  color: #333333;
+}
+
+#hunliji .main nav ul li:nth-child(1) i {
+  background: url(../练习/婚礼纪-移动端/images/list1.png);
+  background-size: 100% 100%;
+}
+
+#hunliji .main nav ul li:nth-child(2) i {
+  background: url(../练习/婚礼纪-移动端/images/list2.png);
+  background-size: 100% 100%;
+}
+
+#hunliji .main nav ul li:nth-child(3) i {
+  background: url(../练习/婚礼纪-移动端/images/list3.png);
+  background-size: 100% 100%;
+}
+
+#hunliji .main nav ul li:nth-child(4) i {
+  background: url(../练习/婚礼纪-移动端/images/list4.png);
+  background-size: 100% 100%;
+}
+
+#hunliji .main nav ul li:nth-child(5) i {
+  background: url(../练习/婚礼纪-移动端/images/list5.png);
+  background-size: 100% 100%;
+}
+
+#hunliji .main nav ul li:nth-child(6) i {
+  background: url(../练习/婚礼纪-移动端/images/list6.png);
+  background-size: 100% 100%;
+}
+
+#hunliji .main nav ul li:nth-child(7) i {
+  background: url(../练习/婚礼纪-移动端/images/list7.png);
+  background-size: 100% 100%;
+}
+
+#hunliji .main nav ul li:nth-child(8) i {
+  background: url(../练习/婚礼纪-移动端/images/list8.png);
+  background-size: 100% 100%;
+}
+
+#hunliji .main nav ul li:nth-child(9) i {
+  background: url(../练习/婚礼纪-移动端/images/list9.png);
+  background-size: 100% 100%;
+}
+
+#hunliji .main nav ul li:nth-child(10) i {
+  background: url(../练习/婚礼纪-移动端/images/list10.png);
+  background-size: 100% 100%;
+}
+
+#hunliji .main .main1 {
+  width: 100%;
+  height: 44.4vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+#hunliji .main .main1 .m1-left {
+  width: 49%;
+  height: 100%;
+  border-radius: 10%;
+  overflow: hidden;
+}
+
+#hunliji .main .main1 .m1-left img {
+  width: 100%;
+  height: 100%;
+}
+
+#hunliji .main .main1 .m1-right {
+  width: 49%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#hunliji .main .main1 .m1-right .r-top {
+  width: 100%;
+  height: 48%;
+  border-radius: 2.66667vw;
+  overflow: hidden;
+}
+
+#hunliji .main .main1 .m1-right .r-top img {
+  width: 100%;
+  height: 100%;
+}
+
+#hunliji .main .main1 .m1-right .r-bottom {
+  width: 100%;
+  height: 48%;
+  border-radius: 2.66667vw;
+  overflow: hidden;
+}
+
+#hunliji .main .main1 .m1-right .r-bottom img {
+  width: 100%;
+  height: 100%;
+}
+
+#hunliji .main .main2 {
+  height: 58.66667vw;
+}
+
+#hunliji .main .main2 h2 {
+  margin-top: 10vw;
+  line-height: 5.33333vw;
+}
+
+#hunliji .main .main2 h2 span:first-child {
+  font-size: 5.33333vw;
+}
+
+#hunliji .main .main2 h2 span:last-child {
+  float: right;
+  font-weight: normal;
+  font-size: 3.46667vw;
+  color: #b2b2b2;
+}
+
+#hunliji .main .main2 .m2-box {
+  height: 48vw;
+  margin-top: 5.6vw;
+  display: flex;
+  padding: 0.66667vw;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+#hunliji .main .main2 .m2-box .m2-box-cont {
+  width: 37.33333vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4vw;
+  box-shadow: 0 0 0.4vw 1.06667vw rgba(0, 0, 0, 0.03);
+  margin-right: 2.66667vw;
+  flex-shrink: 0;
+}
+
+#hunliji .main .main2 .m2-box .m2-box-cont i {
+  width: 15.46667vw;
+  height: 15.46667vw;
+  border-radius: 50%;
+  border: solid 0.13333vw #e8e8e8;
+  overflow: hidden;
+}
+
+#hunliji .main .main2 .m2-box .m2-box-cont i img {
+  width: 100%;
+  height: 100%;
+}
+
+#hunliji .main .main2 .m2-box .m2-box-cont p:nth-child(2) {
+  font-size: 3.73333vw;
+  font-weight: bold;
+  margin-top: 3.33333vw;
+}
+
+#hunliji .main .main2 .m2-box .m2-box-cont p:nth-child(3) {
+  font-size: 3.2vw;
+  color: #ffcf17;
+  margin-top: 2.66667vw;
+}
+
+#hunliji .main .main2 .m2-box .m2-box-cont p:nth-child(4) {
+  font-size: 3.2vw;
+  color: #6c6c6c;
+  margin-top: 1.33333vw;
+}
+
+#hunliji .main .main2 .m2-box .m2-rr {
+  padding: 0 1.33333vw;
+}
+
+#hunliji .main .main3 {
+  height: 36.66667vw;
+}
+
+#hunliji .main .main3 h2 {
+  margin-top: 10vw;
+  line-height: 5.33333vw;
+  font-size: 5.33333vw;
+}
+
+#hunliji .main .main3 .m3-box {
+  margin-top: 5.33333vw;
+  height: 25.33333vw;
+  border-radius: 4vw;
+  position: relative;
+  background: url(../练习/婚礼纪-移动端/images/o_1ckcalj6313oe19g51gbl104cbre1k.png);
+  background-size: 100% 100%;
+}
+
+#hunliji .main .main3 .m3-box .m3-box-cont {
+  width: 80.66667vw;
+  height: 35.46667vw;
+  position: absolute;
+  left: 5.33333vw;
+  top: 5.33333vw;
+  border-radius: 4vw;
+  background: #ffffff;
+  box-shadow: 0 0 0.66667vw 0.66667vw rgba(0, 0, 0, 0.03);
+}
+
+#hunliji .main .main3 .m3-box .m3-box-cont ul {
+  height: 100%;
+  display: flex;
+  padding: 3.73333vw 4.26667vw;
+  box-sizing: border-box;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#hunliji .main .main3 .m3-box .m3-box-cont ul li {
+  font-size: 4vw;
+  color: #2f2f2f;
+  width: 25%;
+  height: 33.3%;
+  line-height: 11.86667vw;
+  text-align: center;
+}
+
+#hunliji .main .main4 {
+  margin-top: 24vw;
+  height: 30vw;
+}
+
+#hunliji .main .main4 h2 {
+  margin-top: 10vw;
+  line-height: 5.33333vw;
+  font-size: 5.33333vw;
+}
+
+#hunliji .main .main4 .m4-box {
+  margin-top: 5.6vw;
+  width: 100%;
+  height: 18.93333vw;
+  padding: 0.66667vw;
+  display: flex;
+  overflow: auto;
+}
+
+#hunliji .main .main4 .m4-box .m4-box-cont {
+  width: 30.93333vw;
+  height: 100%;
+  position: relative;
+  margin-right: 2.66667vw;
+  flex-shrink: 0;
+  padding: 4vw 3.33333vw;
+  box-sizing: border-box;
+  border-radius: 4vw;
+  box-shadow: 0 0 0.66667vw 0.66667vw rgba(0, 0, 0, 0.03);
+}
+
+#hunliji .main .main4 .m4-box .m4-box-cont p:nth-child(1) {
+  font-size: 4vw;
+  line-height: 4vw;
+  font-weight: bold;
+}
+
+#hunliji .main .main4 .m4-box .m4-box-cont p:nth-child(2) {
+  font-size: 2.93333vw;
+  line-height: 2.93333vw;
+  margin-top: 2.66667vw;
+  color: #656565;
+}
+
+#hunliji .main .main4 .m4-box .m4-box-cont img {
+  position: absolute;
+  right: 3.33333vw;
+  bottom: 2.26667vw;
+  width: 5.86667vw;
+  height: 5.86667vw;
+}
+
+#hunliji .main .main4 .m4-box .m4-rr {
+  padding: 0 0.66667vw;
+}
+
+#hunliji .main .main5 {
+  height: 64.66667vw;
+}
+
+#hunliji .main .main5 h2 {
+  margin-top: 10vw;
+  line-height: 5.33333vw;
+}
+
+#hunliji .main .main5 h2 span:first-child {
+  font-size: 5.33333vw;
+}
+
+#hunliji .main .main5 h2 span:last-child {
+  float: right;
+  font-weight: normal;
+  font-size: 3.46667vw;
+  color: #b2b2b2;
+}
+
+#hunliji .main .main5 .m5-box {
+  height: 53.33333vw;
+  display: flex;
+  margin-top: 5.6vw;
+  border-radius: 4vw;
+  overflow: hidden;
+}
+
+#hunliji .main .main5 .m5-box .m5-left {
+  width: 50%;
+  font-size: 0;
+}
+
+#hunliji .main .main5 .m5-box .m5-left img {
+  width: 100%;
+  height: 50%;
+}
+
+#hunliji .main .main5 .m5-box .m5-right {
+  width: 50%;
+}
+
+#hunliji .main .main5 .m5-box .m5-right img {
+  width: 100%;
+  height: 100%;
+}
+
+#hunliji .main .main6 {
+  height: 51.33333vw;
+}
+
+#hunliji .main .main6 h2 {
+  margin-top: 10vw;
+  line-height: 5.33333vw;
+}
+
+#hunliji .main .main6 h2 span:first-child {
+  font-size: 5.33333vw;
+}
+
+#hunliji .main .main6 h2 span:last-child {
+  float: right;
+  font-weight: normal;
+  font-size: 3.46667vw;
+  color: #b2b2b2;
+}
+
+#hunliji .main .main6 .m6-box {
+  margin-left: 5.33333vw;
+  width: 86.66667vw;
+  margin-top: 11.06667vw;
+  height: 40vw;
+  border-radius: 4vw;
+  position: relative;
+  box-shadow: 0 0 1.33333vw 0.66667vw rgba(0, 0, 0, 0.08);
+}
+
+#hunliji .main .main6 .m6-box p {
+  position: absolute;
+  font-size: 4.53333vw;
+  color: #333333;
+  top: 10.4vw;
+  right: 4.93333vw;
+}
+
+#hunliji .main .main6 .m6-box img {
+  width: 7.46667vw;
+  height: 7.46667vw;
+  position: absolute;
+  right: 20.8vw;
+  bottom: 10.66667vw;
+}
+
+#hunliji .main .main6 .m6-box .m6-box-cont {
+  position: absolute;
+  width: 58.66667vw;
+  height: 40vw;
+  top: -5.33333vw;
+  left: -5.33333vw;
+  border-radius: 4vw;
+  overflow: hidden;
+}
+
+#hunliji .main .main6 .m6-box .m6-box-cont img {
+  width: 100%;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+}
+
+#hunliji .main .main7 {
+  margin-top: 8vw;
+  height: 32.4vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+#hunliji .main .main7 .m7-box {
+  width: 28.66667vw;
+  height: 100%;
+  border-radius: 4vw;
+  overflow: hidden;
+  box-shadow: 0 0 1.33333vw 0.66667vw rgba(0, 0, 0, 0.08);
+}
+
+#hunliji .main .main7 .m7-box img {
+  width: 28.66667vw;
+  height: 21.33333vw;
+}
+
+#hunliji .main .main7 .m7-box p {
+  font-size: 3.2vw;
+  line-height: 10.66667vw;
+  color: #555555;
+  text-align: center;
+}
+
+#hunliji .main .main8 {
+  height: 206vw;
+}
+
+#hunliji .main .main8 h2 {
+  margin-top: 10vw;
+  line-height: 5.33333vw;
+}
+
+#hunliji .main .main8 h2 span:first-child {
+  font-size: 5.33333vw;
+}
+
+#hunliji .main .main8 h2 span:last-child {
+  float: right;
+  font-weight: normal;
+  font-size: 3.46667vw;
+  color: #b2b2b2;
+}
+
+#hunliji .main .main8 .m8-box {
+  margin-top: 5.33333vw;
+  width: 100%;
+  height: 32.26667vw;
+  border-radius: 4vw;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 1.33333vw 0.66667vw rgba(0, 0, 0, 0.08);
+}
+
+#hunliji .main .main8 .m8-box img:nth-child(1) {
+  width: 37.33333vw;
+  height: 32.26667vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#hunliji .main .main8 .m8-box img:nth-child(2) {
+  width: 11.73333vw;
+  height: 38.66667vw;
+  position: absolute;
+  left: 25.6vw;
+  top: -2vw;
+}
+
+#hunliji .main .main8 .m8-box img:nth-child(3) {
+  width: 7.46667vw;
+  height: 7.46667vw;
+  position: absolute;
+  right: 5.06667vw;
+  bottom: 3.33333vw;
+}
+
+#hunliji .main .main8 .m8-box p:nth-child(4) {
+  width: 48.66667vw;
+  font-size: 4.26667vw;
+  font-weight: bold;
+  position: absolute;
+  right: 5.06667vw;
+  top: 6vw;
+}
+
+#hunliji .main .main8 .m8-box p:nth-child(5) {
+  font-size: 3.46667vw;
+  position: absolute;
+  color: #797979;
+  right: 20vw;
+  bottom: 6vw;
+}
+
+#hunliji .main footer {
+  height: 38.4vw;
+  background: #f2f3f7;
+  overflow: hidden;
+}
+
+#hunliji .main footer p:nth-child(1) {
+  text-align: center;
+  margin-top: 8vw;
+}
+
+#hunliji .main footer p:nth-child(1) span:nth-child(1) {
+  font-size: 3.73333vw;
+  color: #ffffff;
+  line-height: 8vw;
+  text-align: center;
+  width: 27.06667vw;
+  height: 8vw;
+  display: inline-block;
+  background: #f33243;
+  border-radius: 4vw;
+  margin-right: 5.33333vw;
+  box-shadow: 0 0 1.33333vw 0.66667vw rgba(0, 0, 0, 0.08);
+}
+
+#hunliji .main footer p:nth-child(1) span:nth-child(2) {
+  font-size: 3.73333vw;
+  color: #f33243;
+  line-height: 8vw;
+  text-align: center;
+  width: 27.06667vw;
+  height: 8vw;
+  display: inline-block;
+  background: #ffffff;
+  border-radius: 4vw;
+  box-shadow: 0 0 1.33333vw 0.66667vw rgba(0, 0, 0, 0.08);
+}
+
+#hunliji .main footer p:nth-child(2) {
+  font-size: 2.93333vw;
+  text-align: center;
+  color: #9b9b9d;
+  margin-top: 5.33333vw;
+}
+
+#hunliji .main footer p:nth-child(3) {
+  font-size: 2.93333vw;
+  text-align: center;
+  color: #9b9b9d;
+  margin-top: 2.66667vw;
+}

@@ -1,0 +1,680 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.clearflex::after {
+    content: "";
+    height: 0;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+@function vw($px) {
+    @return ($px/750)*100vw;
+}
+
+@keyframes mystyle {
+    0% {
+        transform: translate(vw(-0), vw(-0));
+    }
+
+    20% {
+        transform: translate(vw(-684), vw(-0));
+    }
+
+    40% {
+        transform: translate(vw(-1368), vw(-0));
+    }
+
+    60% {
+        transform: translate(vw(-2052), vw(-0));
+    }
+
+    80% {
+        transform: translate(vw(-2736), vw(-0));
+    }
+
+    100% {
+        transform: translate(vw(-3420), vw(-0));
+    }
+}
+
+#hunliji {
+    height: 100%;
+
+    header {
+        height: vw(110);
+        margin: vw(22) vw(33);
+        background: url(../练习/婚礼纪-移动端/images/logo.png) no-repeat left center;
+        background-size: vw(184) vw(64);
+
+        i {
+            width: vw(32);
+            height: vw(30);
+            float: right;
+            margin-top: vw(30);
+            background: url(../练习/婚礼纪-移动端/images/o_1ckeu2uusfl01sst1lg0gjs1aul3g.png);
+            background-size: 100% 100%;
+        }
+
+        span {
+            font-size: vw(24);
+            color: #353535;
+            line-height: vw(110);
+            margin-left: vw(207);
+        }
+    }
+
+    .banner {
+        width: 100%;
+        height: vw(275);
+        box-shadow: 0 vw(-5) vw(5) rgba(0, 0, 0, 0.08) inset;
+        border-radius: 5% 5% 50% 50%/10% 10% 15% 15%;
+
+        .banner-cont {
+            width: vw(684);
+            height: vw(275);
+            margin: auto;
+            display: flex;
+            overflow: hidden;
+            border-radius: 5% 5% 50% 50%/10% 10% 11% 11%;
+
+            img {
+                width: 100%;
+                height: vw(275);
+                animation: mystyle ease 12s infinite 0s alternate;
+            }
+        }
+    }
+
+    .main {
+        padding: 0 vw(33);
+
+        nav {
+            width: 100%;
+            height: vw(345);
+
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+
+                li {
+                    width: 20%;
+                    height: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    i {
+                        width: vw(120);
+                        height: vw(96);
+                        display: block;
+                    }
+
+                    p {
+                        font-size: vw(24);
+                        color: #333333;
+                    }
+                }
+
+                li:nth-child(1) i {
+                    background: url(../练习/婚礼纪-移动端/images/list1.png);
+                    background-size: 100% 100%;
+                }
+
+                li:nth-child(2) i {
+                    background: url(../练习/婚礼纪-移动端/images/list2.png);
+                    background-size: 100% 100%;
+                }
+
+                li:nth-child(3) i {
+                    background: url(../练习/婚礼纪-移动端/images/list3.png);
+                    background-size: 100% 100%;
+                }
+
+                li:nth-child(4) i {
+                    background: url(../练习/婚礼纪-移动端/images/list4.png);
+                    background-size: 100% 100%;
+                }
+
+                li:nth-child(5) i {
+                    background: url(../练习/婚礼纪-移动端/images/list5.png);
+                    background-size: 100% 100%;
+                }
+
+                li:nth-child(6) i {
+                    background: url(../练习/婚礼纪-移动端/images/list6.png);
+                    background-size: 100% 100%;
+                }
+
+                li:nth-child(7) i {
+                    background: url(../练习/婚礼纪-移动端/images/list7.png);
+                    background-size: 100% 100%;
+                }
+
+                li:nth-child(8) i {
+                    background: url(../练习/婚礼纪-移动端/images/list8.png);
+                    background-size: 100% 100%;
+                }
+
+                li:nth-child(9) i {
+                    background: url(../练习/婚礼纪-移动端/images/list9.png);
+                    background-size: 100% 100%;
+                }
+
+                li:nth-child(10) i {
+                    background: url(../练习/婚礼纪-移动端/images/list10.png);
+                    background-size: 100% 100%;
+                }
+
+            }
+        }
+
+        .main1 {
+            width: 100%;
+            height: vw(333);
+            display: flex;
+            justify-content: space-between;
+
+            .m1-left {
+                width: 49%;
+                height: 100%;
+                border-radius: 10%;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .m1-right {
+                width: 49%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .r-top {
+                    width: 100%;
+                    height: 48%;
+                    border-radius: vw(20);
+                    overflow: hidden;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .r-bottom {
+                    width: 100%;
+                    height: 48%;
+                    border-radius: vw(20);
+                    overflow: hidden;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+
+        .main2 {
+            height: vw(440);
+
+            h2 {
+                margin-top: vw(75);
+                line-height: vw(40);
+
+                span:first-child {
+                    font-size: vw(40);
+                }
+
+                span:last-child {
+                    float: right;
+                    font-weight: normal;
+                    font-size: vw(26);
+                    color: #b2b2b2;
+                }
+            }
+
+            .m2-box {
+                height: vw(360);
+                margin-top: vw(42);
+                display: flex;
+                padding: vw(5);
+                justify-content: space-between;
+                overflow: auto;
+
+                .m2-box-cont {
+                    width: vw(280);
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: vw(30);
+                    box-shadow: 0 0 vw(3) vw(8) rgba(0, 0, 0, 0.03);
+                    margin-right: vw(20);
+                    flex-shrink: 0;
+
+                    i {
+                        width: vw(116);
+                        height: vw(116);
+                        border-radius: 50%;
+                        border: solid vw(1) #e8e8e8;
+                        overflow: hidden;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+
+                    p:nth-child(2) {
+                        font-size: vw(28);
+                        font-weight: bold;
+                        margin-top: vw(25);
+                    }
+
+                    p:nth-child(3) {
+                        font-size: vw(24);
+                        color: #ffcf17;
+                        margin-top: vw(20);
+                    }
+
+                    p:nth-child(4) {
+                        font-size: vw(24);
+                        color: #6c6c6c;
+                        margin-top: vw(10);
+                    }
+                }
+
+                .m2-rr {
+                    padding: 0 vw(10);
+                }
+            }
+        }
+
+        .main3 {
+            height: vw(275);
+
+            h2 {
+                margin-top: vw(75);
+                line-height: vw(40);
+                font-size: vw(40);
+            }
+
+            .m3-box {
+                margin-top: vw(40);
+                height: vw(190);
+                border-radius: vw(30);
+                position: relative;
+                background: url(../练习/婚礼纪-移动端/images/o_1ckcalj6313oe19g51gbl104cbre1k.png);
+                background-size: 100% 100%;
+
+                .m3-box-cont {
+                    width: vw(605);
+                    height: vw(266);
+                    position: absolute;
+                    left: vw(40);
+                    top: vw(40);
+                    border-radius: vw(30);
+                    background: #ffffff;
+                    box-shadow: 0 0 vw(5) vw(5) rgba(0, 0, 0, 0.03);
+
+                    ul {
+                        height: 100%;
+                        display: flex;
+                        padding: vw(28) vw(32);
+                        box-sizing: border-box;
+                        justify-content: space-around;
+                        flex-wrap: wrap;
+
+                        li {
+                            font-size: vw(30);
+                            color: #2f2f2f;
+                            width: 25%;
+                            height: 33.3%;
+                            line-height: vw(89);
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+
+        .main4 {
+            margin-top: vw(180);
+            height: vw(225);
+
+            h2 {
+                margin-top: vw(75);
+                line-height: vw(40);
+                font-size: vw(40);
+            }
+
+            .m4-box {
+                margin-top: vw(42);
+                width: 100%;
+                height: vw(142);
+                padding: vw(5);
+                display: flex;
+                overflow: auto;
+
+                .m4-box-cont {
+                    width: vw(232);
+                    height: 100%;
+                    position: relative;
+                    margin-right: vw(20);
+                    flex-shrink: 0;
+                    padding: vw(30) vw(25);
+                    box-sizing: border-box;
+                    border-radius: vw(30);
+                    box-shadow: 0 0 vw(5) vw(5) rgba(0, 0, 0, 0.03);
+
+                    p:nth-child(1) {
+                        font-size: vw(30);
+                        line-height: vw(30);
+                        font-weight: bold;
+                    }
+
+                    p:nth-child(2) {
+                        font-size: vw(22);
+                        line-height: vw(22);
+                        margin-top: vw(20);
+                        color: #656565;
+                    }
+
+                    img {
+                        position: absolute;
+                        right: vw(25);
+                        bottom: vw(17);
+                        width: vw(44);
+                        height: vw(44);
+                    }
+                }
+
+                .m4-rr {
+                    padding: 0 vw(5);
+                }
+            }
+        }
+
+        .main5 {
+            height: vw(485);
+
+            h2 {
+                margin-top: vw(75);
+                line-height: vw(40);
+
+                span:first-child {
+                    font-size: vw(40);
+                }
+
+                span:last-child {
+                    float: right;
+                    font-weight: normal;
+                    font-size: vw(26);
+                    color: #b2b2b2;
+                }
+            }
+
+            .m5-box {
+                height: vw(400);
+                display: flex;
+                margin-top: vw(42);
+                border-radius: vw(30);
+                overflow: hidden;
+
+                .m5-left {
+                    width: 50%;
+                    font-size: 0;
+
+                    img {
+                        width: 100%;
+                        height: 50%;
+                    }
+                }
+
+                .m5-right {
+                    width: 50%;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+
+        .main6 {
+            height: vw(385);
+
+            h2 {
+                margin-top: vw(75);
+                line-height: vw(40);
+
+                span:first-child {
+                    font-size: vw(40);
+                }
+
+                span:last-child {
+                    float: right;
+                    font-weight: normal;
+                    font-size: vw(26);
+                    color: #b2b2b2;
+                }
+            }
+
+            .m6-box {
+                margin-left: vw(40);
+                width: vw(650);
+                margin-top: vw(83);
+                height: vw(300);
+                border-radius: vw(30);
+                position: relative;
+                box-shadow: 0 0 vw(10) vw(5) rgba(0, 0, 0, 0.08);
+
+                p {
+                    position: absolute;
+                    font-size: vw(34);
+                    color: #333333;
+                    top: vw(78);
+                    right: vw(37);
+                }
+
+                img {
+                    width: vw(56);
+                    height: vw(56);
+                    position: absolute;
+                    right: vw(156);
+                    bottom: vw(80);
+                }
+
+                .m6-box-cont {
+                    position: absolute;
+                    width: vw(440);
+                    height: vw(300);
+                    top: vw(-40);
+                    left: vw(-40);
+                    border-radius: vw(30);
+                    overflow: hidden;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        right: 0;
+                        bottom: 0;
+                    }
+                }
+            }
+        }
+
+        .main7 {
+            margin-top: vw(60);
+            height: vw(243);
+            display: flex;
+            justify-content: space-between;
+
+            .m7-box {
+                width: vw(215);
+                height: 100%;
+                border-radius: vw(30);
+                overflow: hidden;
+                box-shadow: 0 0 vw(10) vw(5) rgba(0, 0, 0, 0.08);
+
+                img {
+                    width: vw(215);
+                    height: vw(160);
+                }
+
+                p {
+                    font-size: vw(24);
+                    line-height: vw(80);
+                    color: #555555;
+                    text-align: center;
+                }
+            }
+        }
+
+        .main8 {
+            height: vw(1545);
+
+            h2 {
+                margin-top: vw(75);
+                line-height: vw(40);
+
+                span:first-child {
+                    font-size: vw(40);
+                }
+
+                span:last-child {
+                    float: right;
+                    font-weight: normal;
+                    font-size: vw(26);
+                    color: #b2b2b2;
+                }
+            }
+
+            .m8-box {
+                margin-top: vw(40);
+                width: 100%;
+                height: vw(242);
+                border-radius: vw(30);
+                position: relative;
+                overflow: hidden;
+                box-shadow: 0 0 vw(10) vw(5) rgba(0, 0, 0, 0.08);
+
+                img:nth-child(1) {
+                    width: vw(280);
+                    height: vw(242);
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
+
+                img:nth-child(2) {
+                    width: vw(88);
+                    height: vw(290);
+                    position: absolute;
+                    left: vw(192);
+                    top: vw(-15);
+                }
+
+                img:nth-child(3) {
+                    width: vw(56);
+                    height: vw(56);
+                    position: absolute;
+                    right: vw(38);
+                    bottom: vw(25);
+                }
+
+                p:nth-child(4) {
+                    width: vw(365);
+                    font-size: vw(32);
+                    font-weight: bold;
+                    position: absolute;
+                    right: vw(38);
+                    top: vw(45);
+                }
+
+                p:nth-child(5) {
+                    font-size: vw(26);
+                    position: absolute;
+                    color: #797979;
+                    right: vw(150);
+                    bottom: vw(45);
+                }
+            }
+        }
+
+        footer {
+            height: vw(288);
+            background: #f2f3f7;
+            overflow: hidden;
+
+            p:nth-child(1) {
+                text-align: center;
+                margin-top: vw(60);
+            }
+            
+            p:nth-child(1) span:nth-child(1) {
+                font-size: vw(28);
+                color: #ffffff;
+                line-height: vw(60);
+                text-align: center;
+                width: vw(203);
+                height: vw(60);
+                display: inline-block;
+                background: #f33243;
+                border-radius: vw(30);
+                margin-right: vw(40);
+                box-shadow: 0 0 vw(10) vw(5) rgba(0, 0, 0, 0.08);
+            }
+
+            p:nth-child(1) span:nth-child(2) {
+                font-size: vw(28);
+                color: #f33243;
+                line-height: vw(60);
+                text-align: center;
+                width: vw(203);
+                height: vw(60);
+                display: inline-block;
+                background: #ffffff;
+                border-radius: vw(30);
+                box-shadow: 0 0 vw(10) vw(5) rgba(0, 0, 0, 0.08);
+            }
+
+            p:nth-child(2) {
+                font-size: vw(22);
+                text-align: center;
+                color: #9b9b9d;
+                margin-top: vw(40);
+            }
+
+            p:nth-child(3) {
+                font-size: vw(22);
+                text-align: center;
+                color: #9b9b9d;
+                margin-top: vw(20);
+            }
+        }
+    }
+}
